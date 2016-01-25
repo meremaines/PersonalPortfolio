@@ -9,13 +9,13 @@
  h1 {
    font-family: "Arapey", serif;
    font-weight: 400;
-   font-size: 36pt;
+   font-size: 40pt;
    color: #FFD459;
  }
  h2 {
-   font-family: 'Montserrat', sans-serif;
+   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
    font-weight: 400;
-   font-size:28px;
+   font-size:18px;
    color: #ffffff;
  }
  p {
@@ -24,3 +24,108 @@
    font-size:16px;
    line-height: 19px;
  }
+  /* GRID */
+ .container {
+   margin-right: auto;
+   margin-left: auto;
+   padding-left: 15px;
+   padding-right: 15px;
+   position: relative;
+ }
+ .container:before,
+ .container:after {
+   content: " ";
+   display: table;
+ }
+ .container:after {
+   clear: both;
+ }
+ .contained {
+   width:96%;
+   float:left;
+   position:relative;
+   min-height: 1px;
+   margin:0 2% 20px;
+ }
+ .contained > ul > li {
+   display: none;
+ }
+/* Homepage Media Queries for Tablet, Desktop*/
+  @media (min-width: 768px) {
+   .container {
+     width: 750px;
+   }
+ }
+  @media (min-width: 992px) {
+   .container {
+     width: 970px;
+   }
+/*   .contained {
+     width:29.33333%;*/
+   }
+ }
+ @media (min-width: 1200px) {
+   .container {
+     width: 1170px;
+   }
+ }
+/* Homepage Hero Section*/
+header {
+   color: #FFD459;
+   background-color: #78b7da;
+}
+header nav {
+   z-index: 10;
+   color: #FFD459;
+   height: 2em;
+   position: absolute;
+}
+nav > a {
+   text-decoration: none;
+}
+nav.container > .contained > a.site-logo {
+   height: 75px;
+}
+i.fa.fa-bars {
+   float: right;
+   color: #FFD459;
+}
+header .hero {
+   background: #78b7da url("../images/hero_img.jpg") no-repeat;
+   background-position: center center;
+   display: block;
+   position: relative;
+   padding: 0 0 25em 0;
+}
+header > nav.container > .contained {
+   width: 46%;
+}
+h1 {
+   /*float: left;*/
+   margin: 0 auto;
+   text-align: center;
+   text-shadow: 1px 2px #B2902C;
+}
+h2 {
+   /*float: left;*/
+   margin: 0 auto;
+   text-align: center;
+   position: relative;
+   text-shadow: 1px 2px #B2902C;
+}
+/*Footer*/
+footer > .ruled-line {
+   height: 15px;
+   background: #FFD459;
+}
+.footer-text-block > .contained {
+   width: 96%;
+   float: right;
+   text-align: right;
+   color: #B2902C;
+}
+.footer-text-block > .contained > p {
+   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+   font-weight: 400;
+   font-size:12px;
+}
