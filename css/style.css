@@ -219,8 +219,10 @@ h2 {
    color: #B2902C;
    text-decoration: none;
    text-align: center;
+   display: block;
    margin: 0 auto;
    position: relative;
+   width: 25%;
 }
 .hero a.btn:hover {
    color: #FFD459;
