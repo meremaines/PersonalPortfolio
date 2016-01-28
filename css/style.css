@@ -184,9 +184,6 @@ section.hero::before{
       background-position: center -150px;
    }
 }*/
-.container /*> .headline */{
-   margin: 0 auto;
-}
 h1 {
    /*float: left;*/
    margin: 0 auto;
@@ -230,6 +227,8 @@ h2 {
 /*Footer*/
 footer {
    width: 100%;
+   background: #FFFFFF;
+   position: relative;
 }
 footer > .ruled-line {
    height: 15px;
@@ -237,8 +236,10 @@ footer > .ruled-line {
    background: #FFD459;
 }
 .footer-text-block {
-   background-color: #ffffff;
+   background: #ffffff;
    padding: 15px 0 0 0;
+   position: relative;
+   margin: 0 auto;
 }
 .footer-text-block > .contained {
    width: 1000%;
