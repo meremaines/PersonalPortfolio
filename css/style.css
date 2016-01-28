@@ -102,8 +102,14 @@ img.logo-png {
 }
 nav > .contained > .container > a.hamburger-icon, i.fa-bars {
    float: right;
+   color: #B2902C;
+   margin: 20px 0 0 0;
+   padding: 5px;
+   background-color: #FFD459;
+}
+nav > .contained > .container > a.hamburger-icon, i.fa-bars:hover {
    color: #FFD459;
-   padding: 20px 0 0 0;
+   background-color: #B2902C;
 }
 header .hero {
    background: #78b7da url("../images/hero_img.jpg") no-repeat;
@@ -113,10 +119,16 @@ header .hero {
    width: 100%;
    height: 80vh;
 }
-header .hero > .contained {
+@media (max-width: 518px) {
+   header .hero {
+      background-size: 300%;
+      background-position: center -150px;
+   }
+}
+/*header .hero > .contained {
    margin: 0 auto;
    float: left;
-}
+}*/
 h1 {
    /*float: left;*/
    margin: 0 auto;
@@ -130,6 +142,28 @@ h2 {
    text-align: center;
    position: relative;
    text-shadow: 1px 2px #B2902C;
+}
+.btn {
+   padding: 10px;
+   background-color: #FFD459;
+   border-bottom: 3px solid #B2902C;
+}
+.btn:hover {
+   padding: 10px;
+   background-color: #B2902C;
+   border-bottom: 3px solid #B2902C;
+}
+.hero a.btn {
+   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+   font-weight: 400;
+   font-size:12px; 
+   color: #B2902C;
+   text-decoration: none;
+   text-align: center;
+   margin: 0 auto;
+}
+.hero a.btn:hover {
+   color: #FFD459;
 }
 /*Footer*/
 footer > .ruled-line {
