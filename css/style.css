@@ -113,13 +113,13 @@ nav > .contained > .container > a.hamburger-icon, i.fa-bars:hover {
 }
 header .hero {
    background: #78b7da url("../images/hero_img.jpg") no-repeat;
-   background-position: center center;
+/*   background-position: center center;*/
    background-size: cover;
    display: block;
    width: 100%;
    height: 80vh;
 }
-header .hero:before{
+section.hero::before{
   position: absolute;
   content:" ";
   top:0;
@@ -136,8 +136,8 @@ header .hero:before{
       background-position: center -150px;
    }
 }
-.headline {
-   z-index: 10;
+.container /*> .headline */{
+   margin: 0 auto;
 }
 h1 {
    /*float: left;*/
@@ -182,14 +182,26 @@ footer > .ruled-line {
    height: 15px;
    background: #FFD459;
 }
+.footer-text-block {
+   background-color: #ffffff;
+   padding: 15px 0 0 0;
+}
 .footer-text-block > .contained {
    width: 96%;
    float: right;
    text-align: right;
    color: #B2902C;
+   height: 15vh;
 }
 .footer-text-block > .contained > p {
    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
    font-weight: 400;
    font-size:12px;
+   line-height: 14px;
+   margin: 0 auto;
+   padding: 0 0 5px 0;
+}
+a.email-address, a.insta-handle {
+   color: #B2902C;
+   text-decoration: none;
 }
