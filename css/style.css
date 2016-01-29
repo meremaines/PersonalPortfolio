@@ -256,12 +256,12 @@ footer > .ruled-line {
    width: 100%;
    background: #FFD459;
 }
-.container .footer-text-block {
+/*.container */.footer-text-block {
    background: #ffffff;
-   padding: 15px 0 0 0;
+   padding: 15px 20px 0 0;
    position: relative;
    margin: 0 auto;
-/*   height: 20vh;*/
+   height: 50vh;
    width: 100%;
 }
 .footer-text-block p {
@@ -275,6 +275,7 @@ footer > .ruled-line {
    text-align: right;
    color: #B2902C;
    text-decoration: none;
+   padding: 10px 0 5px 0;
 }
 /*p.copyright {
    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
@@ -288,7 +289,7 @@ footer > .ruled-line {
    color: #B2902C;
    text-decoration: none;
 }*/
-a.email-address, a.insta-handle {
+a.email-address /*a.insta-handle*/ {
    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
    font-weight: 400;
    font-size:12px;
