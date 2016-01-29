@@ -114,7 +114,7 @@ nav.full-width {
       display: block;
       text-align: right;
       float: right;
-      margin: 0;
+      margin: 15px 0 0 0;
    }
    .navigation-items ul > li {
       display: inline-block;
@@ -235,28 +235,48 @@ footer > .ruled-line {
    width: 100%;
    background: #FFD459;
 }
-.footer-text-block {
+.container .footer-text-block {
    background: #ffffff;
    padding: 15px 0 0 0;
    position: relative;
    margin: 0 auto;
+/*   height: 20vh;*/
+   width: 100%;
 }
-.footer-text-block > .contained {
-   width: 1000%;
-   float: right;
-   text-align: right;
-   color: #B2902C;
-   height: 15vh;
-}
-.footer-text-block > .contained > p {
+.footer-text-block p {
    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
    font-weight: 400;
    font-size:12px;
    line-height: 14px;
+   color: #B2902C;
    margin: 0;
-   padding: 0 0 5px 0; /*bottom padding*/
-}
-a.email-address, a.insta-handle {
+   /*float: right;*/
+   text-align: right;
    color: #B2902C;
    text-decoration: none;
+}
+/*p.copyright {
+   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+   font-weight: 400;
+   font-size:12px;
+   line-height: 14px;
+   color: #B2902C;
+   margin: 0;
+   float: right;
+   text-align: right;
+   color: #B2902C;
+   text-decoration: none;
+}*/
+a.email-address, a.insta-handle {
+   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+   font-weight: 400;
+   font-size:12px;
+   line-height: 14px;
+   color: #B2902C;
+   margin: 0;
+   float: right;
+   text-align: right;
+   color: #B2902C;
+   text-decoration: none;
+   display: block;
 }
