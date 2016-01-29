@@ -184,6 +184,9 @@ section.hero::before{
       background-position: center -150px;
    }
 }*/
+.headline {
+   padding: 200px 0 0 0;
+}
 h1 {
    /*float: left;*/
    margin: 0 auto;
