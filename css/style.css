@@ -187,6 +187,10 @@ section.hero::before{
 .headline {
    padding: 200px 0 0 0;
 }
+.headline.work {
+   padding: 75px 0 0 0;
+   height: 60vh;
+}
 h1 {
    /*float: left;*/
    margin: 0 auto;
@@ -212,7 +216,7 @@ h2 {
    background-color: #B2902C;
    border-bottom: 3px solid #B2902C;
 }
-.hero a.btn {
+.hero a.btn, .headline.work a.btn {
    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
    font-weight: 400;
    font-size:12px; 
@@ -224,8 +228,11 @@ h2 {
    position: relative;
    width: 25%;
 }
-.hero a.btn:hover {
+.hero a.btn:hover, .headline.work a.btn:hover {
    color: #FFD459;
+}
+.headline.work a.btn, .headline.work a.btn:hover {
+   width: 10%;
 }
 /*Footer*/
 footer {
