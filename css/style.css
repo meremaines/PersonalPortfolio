@@ -50,6 +50,27 @@
  .contained > ul > li {
    display: none;
  }
+ .one-half {
+   width: 48%;
+   float: left;
+   position: relative;
+   min-height: 1px;
+   margin: 0 2% 20px;
+ }
+ .one-third {
+   width: 29.33333%;
+   float: left;
+   position: relative;
+   min-height: 1px;
+   margin: 0 2% 20px;
+ }
+ .one-fourth {
+   width: 21%;
+   float: left;
+   position: relative;
+   min-height: 1px;
+   margin: 0 2% 20px;
+ }
 /* Homepage Media Queries for Tablet, Desktop*/
   @media (min-width: 768px) {
    .container {
@@ -303,7 +324,7 @@ a.email-address /*a.insta-handle*/ {
    display: block;
 }
 /*case study: library*/
- body.library-text {
+ .library-text, p {
    font-family: "Roboto", sans-serif;
    font-weight: 400;
    color:#9b9b9b;
@@ -312,7 +333,9 @@ a.email-address /*a.insta-handle*/ {
    font-family: "Arapey", serif;
    font-weight: 400;
    font-size: 36pt;
+   line-height: 26pt;
    color: #a3cfca;
+   text-align: left;
    text-shadow: none;
  }
  h2.library-text {
@@ -322,37 +345,62 @@ a.email-address /*a.insta-handle*/ {
    line-height: 24px;
    color: #ffffff;
    text-shadow: none;
+   text-align: left;
  }
- h3.library-text {
+ .library-text, h3 {
    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
    font-weight: 400;
    font-size: 24px;
    color: #a3cfca;
+   text-align: left;
  }
- h4.library-text {
+ .library-text, h4 {
    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
    font-weight: 400;
    font-size: 18px;
    color: #a3cfca;
  }
- h5.library-text {
+ .library-text, h5 {
    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
    font-weight: 400;
    font-size: 12px;
    color: #ffffff;
  }
- h6.library-text {
+ .library-text, h6 {
    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
    font-weight: 400;
    font-size: 14px;
    color: #a3cfca;
  }
- p.library-text {
+ .library-text, p {
    font-family: "Roboto", sans-serif;
    font-weight: 400;
    font-size:14px;
    line-height: 19px;
    color: #9b9b9b;
+ }
+ p.sub-head {
+   font-family: "Arapey", serif;
+   font-weight: 400;
+   font-size: 24pt;
+   line-height: 22pt;
+   color: #a3cfca;
+   text-align: left;
+   text-shadow: none;   
+ }
+ ul.library-text > li {
+   font-family: "Roboto", sans-serif;
+   font-weight: 400;
+   font-size:14px;
+   line-height: 19px;
+   color: #9b9b9b;  
+ }
+ h4.contained {
+   margin: 0 auto;
+   text-align: center;
+ }
+ p.one-third {
+   float: none;
  }
  /*hero section library case study*/
  section.hero::before{
