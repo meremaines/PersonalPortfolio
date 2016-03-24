@@ -101,7 +101,8 @@ header nav {
    position: absolute;
 }
 nav.full-width {
-   width: 100%;
+   width: 96%;
+   margin: 0 2% 20px;
 }
 .site-logo {
    float: left;
@@ -324,11 +325,6 @@ a.email-address /*a.insta-handle*/ {
    display: block;
 }
 /*case study: library*/
- .library-text, p {
-   font-family: "Roboto", sans-serif;
-   font-weight: 400;
-   color:#9b9b9b;
- }
  h1.library-text {
    font-family: "Arapey", serif;
    font-weight: 400;
@@ -342,7 +338,7 @@ a.email-address /*a.insta-handle*/ {
    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
    font-weight: 400;
    font-size:14px;
-   line-height: 24px;
+   line-height: 12px;
    color: #ffffff;
    text-shadow: none;
    text-align: left;
@@ -360,11 +356,11 @@ a.email-address /*a.insta-handle*/ {
    font-size: 18px;
    color: #a3cfca;
  }
- .library-text, h5 {
+ h5.library-text {
    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
    font-weight: 400;
    font-size: 12px;
-   color: #ffffff;
+   color: #a3cfca;
  }
  .library-text, h6 {
    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
@@ -408,13 +404,60 @@ a.email-address /*a.insta-handle*/ {
  } 
  .hero, .library {
    background: #a3cfca url("../images/libraryhero.jpg") no-repeat;
-   background-position: center center;
-   background-size: cover;
+   background-position: -150px -450px;
+   background-size: 130%;
    /*opacity: 0.5;*/
    display: block;
    width: 100%;
-   height: 60vh;
+   height: 80vh;
 }
-section.hero.library > .headline {
-
+.btn-library {
+   padding: 10px;
+   background-color: #a3cfca;
+   border-bottom: 3px solid #4AA298;
 }
+.btn-library:hover {
+   padding: 10px;
+   background-color: #4AA298;
+   border-bottom: 3px solid #4AA298;
+}
+a.btn-library {
+   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+   font-weight: 400;
+   font-size:12px; 
+   color: #ffffff;
+   text-decoration: none;
+   text-align: center;
+   display: block;
+   margin: 0;
+   position: relative;
+   width: 21%;
+}
+a.btn-library:hover {
+   color: #a3cfca;
+}
+ul.cta-sub-nav {
+   padding: 0;
+   float: left;
+}
+ul.cta-sub-nav > li {
+   display: inline-block;
+   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+   font-weight: 400;
+   font-size: 12px;
+   color: #a3cfca; 
+   padding-right: 10px;  
+}
+.the-problem > h3.one-third {
+   float: right;
+}
+/*.cta-sub-nav > ul > li > a {
+   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+   font-weight: 400;
+   font-size: 12px;
+   color: #a3cfca;
+ } */  
+}
+/*.headline.work a.btn, .headline.work a.btn:hover {
+   width: 10%;
+}*/
