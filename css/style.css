@@ -451,6 +451,35 @@ ul.cta-sub-nav > li {
 .the-problem > h3.one-third {
    float: right;
 }
+ul.library-text {
+   float: left;
+}
+h4.one-third {
+   float: none;
+}
+section.CTA {
+   width: 100%;
+   background: #a3cfca;
+   padding: 50px 0;
+}
+section.CTA > .container > h1.library-text {
+   color: #ffffff;
+   text-align: center;
+   margin: 0 auto;
+   padding: 0;
+}
+section.CTA > .container > .btn-library {
+   margin: 20px auto 0;
+   color: #a3cfca;
+   background: #ffffff;
+   border: none;
+}
+section.CTA > .container > .btn-library:hover {
+   margin: 20px auto 0;
+   color: #a3cfca;
+   background: #4AA298;
+   border: none;
+}   
 /*.cta-sub-nav > ul > li > a {
    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
    font-weight: 400;
