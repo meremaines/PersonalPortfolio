@@ -487,7 +487,7 @@ a.btn-library:hover {
 .study > .container > nav > ul > li > a:hover {
   color: #4AA298;
 }
-ul.library-text {
+/*ul.library-text {
   float: left;
 }
 h4.one-third {
@@ -495,10 +495,78 @@ h4.one-third {
 }
 .summary {
   margin-bottom: 0;
-}
+}*/
 /*The Problem*/
-.the-problem > p.one-third {
+.container > .the-problem {
+  float: left;
+}
+.the-problem > .one-third > h3 {
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #a3cfca;
+  text-align: left;
+}
+.the-problem > .one-third > p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size:1.1em;
+  line-height: 1.5;
+  color: #9b9b9b;
+}
+.the-problem > .one-third > h4 {
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #a3cfca;
+}
+/*.the-problem > .one-third > ul {
+  float: left;
+}*/
+.the-problem > .one-third > ul > li {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size:1.1em;
+  line-height: 1.5;
+  color: #9b9b9b;
+}
+.the-problem > h4 {
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #a3cfca;
+}
+.precedent {
   float: none;
+}
+.precedent > h4 {
+  width: 100%;
+  margin: 1.5em auto;
+  float: left;
+  text-align: center;
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #a3cfca;
+}
+.precedent > img {
+  float: left;
+}
+.antecedent {
+  float: none;
+}
+.antecedent > h4 {
+  width: 100%;
+  margin: 1.5em auto;
+  float: left;
+  text-align: center;
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #a3cfca;
+}
+.antecedent > img {
+  float: left;
 }
 /*CTA Section*/
 section.CTA {
