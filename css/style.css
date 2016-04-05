@@ -492,8 +492,8 @@ a.btn-library:hover {
 }*/
 .one-third > p {
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size:1.1em;
+  font-weight: 300;
+  font-size:1em;
   line-height: 1.5;
   color: #9b9b9b;
 }
@@ -533,8 +533,8 @@ a.btn-library:hover {
 }
 .one-third > ul > li {
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size:1.1em;
+  font-weight: 300;
+  font-size:1em;
   line-height: 1.5;
   color: #9b9b9b;
 }
@@ -633,18 +633,19 @@ h4.one-third {
   text-align: center;
   margin: 0 auto;
   padding: 0;
+  text-shadow: 1px 2px #4AA298;
 }
-.CTA > .btn-library {
-  margin: 20px auto 0;
+.CTA > a.btn-library {
   color: #a3cfca;
   background: #ffffff;
   border: none;
+  text-align: center;
 }
-.CTA > .btn-library:hover {
-  margin: 20px auto 0;
+.CTA > a.btn-library:hover {
   color: #a3cfca;
   background: #4AA298;
   border: none;
+  text-align: center;
 }
 /*.cta-sub-nav > ul > li > a {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
