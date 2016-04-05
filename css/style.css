@@ -165,7 +165,7 @@ header nav {
   a.hamburger-icon, i.fa-bars {
      display: none;
   }
-  .hero .healine a.btn {
+  .hero .headline a.btn {
      display: none;
   }
 }
@@ -541,9 +541,9 @@ a.btn-library:hover {
 .images {
   float: left;
 }
-/*.images > img.one-fourth, img.one-third, img.one-half {
+.images > img.one-fourth, img.one-third, img.one-half {
   float: left;
-}*/
+}
 /*ul.library-text {
   float: left;
 }
