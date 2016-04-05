@@ -487,13 +487,15 @@ a.btn-library:hover {
 .study > .container > nav > ul > li > a:hover {
   color: #4AA298;
 }
+/*.one-third {
+  float: left;
+}*/
 .one-third > p {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size:1.1em;
   line-height: 1.5;
   color: #9b9b9b;
-  float: left;
 }
 .one-third > h3 {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
@@ -508,6 +510,20 @@ a.btn-library:hover {
   font-size: 24px;
   color: #a3cfca;
   text-align: left;
+}
+.branding > h3 {
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #a3cfca;
+  text-align: left;  
+}
+.design-issues > h3 {
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #a3cfca;
+  text-align: left;  
 }
 .one-third > h4 {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
