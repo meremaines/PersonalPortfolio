@@ -487,6 +487,44 @@ a.btn-library:hover {
 .study > .container > nav > ul > li > a:hover {
   color: #4AA298;
 }
+.one-third > p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size:1.1em;
+  line-height: 1.5;
+  color: #9b9b9b;
+  float: left;
+}
+.one-third > h3 {
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #a3cfca;
+  text-align: left;  
+}
+.user-research > h3 {
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #a3cfca;
+  text-align: left;
+}
+.one-third > h4 {
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #a3cfca;  
+}
+.one-third > ul > li {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size:1.1em;
+  line-height: 1.5;
+  color: #9b9b9b;
+}
+.images > img.one-fourth, img.one-third, img.one-half {
+  float: left;
+}
 /*ul.library-text {
   float: left;
 }
@@ -497,10 +535,10 @@ h4.one-third {
   margin-bottom: 0;
 }*/
 /*The Problem*/
-.container > .the-problem {
+/*.container > .the-problem {
   float: left;
-}
-.the-problem > .one-third > h3 {
+}*/
+/*.the-problem > .one-third > h3 {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size: 24px;
@@ -519,11 +557,11 @@ h4.one-third {
   font-weight: 400;
   font-size: 18px;
   color: #a3cfca;
-}
+}*/
 /*.the-problem > .one-third > ul {
   float: left;
 }*/
-.the-problem > .one-third > ul > li {
+/*.the-problem > .one-third > ul > li {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size:1.1em;
@@ -535,7 +573,7 @@ h4.one-third {
   font-weight: 400;
   font-size: 18px;
   color: #a3cfca;
-}
+}*/
 .precedent {
   float: none;
 }
@@ -569,24 +607,24 @@ h4.one-third {
   float: left;
 }
 /*CTA Section*/
-section.CTA {
+.CTA {
   width: 100%;
   background: #a3cfca;
   padding: 50px 0;
 }
-section.CTA > .container > h1.library-text {
+.CTA > h1.library-text {
   color: #ffffff;
   text-align: center;
   margin: 0 auto;
   padding: 0;
 }
-section.CTA > .container > .btn-library {
+.CTA > .btn-library {
   margin: 20px auto 0;
   color: #a3cfca;
   background: #ffffff;
   border: none;
 }
-section.CTA > .container > .btn-library:hover {
+.CTA > .btn-library:hover {
   margin: 20px auto 0;
   color: #a3cfca;
   background: #4AA298;
