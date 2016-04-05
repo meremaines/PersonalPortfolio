@@ -538,9 +538,12 @@ a.btn-library:hover {
   line-height: 1.5;
   color: #9b9b9b;
 }
-.images > img.one-fourth, img.one-third, img.one-half {
+.images {
   float: left;
 }
+/*.images > img.one-fourth, img.one-third, img.one-half {
+  float: left;
+}*/
 /*ul.library-text {
   float: left;
 }
