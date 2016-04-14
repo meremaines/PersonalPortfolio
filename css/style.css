@@ -64,6 +64,13 @@ p {
   min-height: 1px;
   margin: 0 2% 20px;
 }
+.two-thirds {
+  width: 58.66666%;
+  float: left;
+  position: relative;
+  min-height: 1px;
+  margin: 0 2% 20px;
+}
 .one-fourth {
   width: 21%;
   float: left;
@@ -96,26 +103,29 @@ p {
   background-color: #78b7da;
   padding: 0 0 200px 0 ;
 }*/
-header nav {
+.top-nav {
   z-index: 10;
   color: #FFD459;
-  position: absolute;
-}
-/*nav.full-width {
+  top: -50px;
   width: 100%;
-  margin: 0 2% 20px;
-}*/
-.hero > nav >.container > a > img.logo-png {
-  /*float: left;*/
-  display: none;
+  /*position: absolute;*/
 }
 .navigation-items > ul {
   list-style: none;
-/*   width: 100%;*/
+  width: 100%;
   display: none;
+  float: left;
+  text-align: left;
 }
 .navigation-itmes > ul > li {
+  width: 21%;
+  margin: 0 2%;
+  float: left;
+}
+.navigation-items > ul > li > a.btn, .email-me {
   width: 100%;
+  /*margin: 0 2%;
+  float: left;*/
 }
 .navigation-items > ul > li > a {
   text-decoration: none;
@@ -130,13 +140,13 @@ header nav {
      width: 46%;
   }
   .navigation-items {
-     width: 46%;
+     /*width: 46%;*/
      float: right;
-     display: inline;
+     /*display: inline;*/
   }
   .navigation-items ul {
      display: block;
-     text-align: right;
+     /*text-align: right;*/
      float: right;
      margin: 15px 0 0 0;
   }
@@ -171,6 +181,8 @@ header nav {
 }
 img.logo-png {
   height: 125px;
+  padding-top: 0;
+  float: left;
 }
 nav > .contained > .container > a.hamburger-icon, i.fa-bars {
   float: right;
@@ -328,6 +340,7 @@ a.email-address /*a.insta-handle*/ {
 }
 
 /*case study: library*/
+
 .hero-text > h1 {
   font-family: "Arapey", serif;
   font-weight: 400;
@@ -337,13 +350,14 @@ a.email-address /*a.insta-handle*/ {
   text-align: left;
   text-shadow: none;
   padding: 10px 0 0 0;
+  clear: both;
 }
-/*.hero-text > h2 {
+/*.hero-text h2 {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size:14px;
   line-height: 12px;
-  color: #ffffff;
+  color: #a3cfca;
   text-shadow: none;
   text-align: left;
 }*/
@@ -395,14 +409,13 @@ a.email-address /*a.insta-handle*/ {
   font-weight: 400;
   font-size:1em;
   line-height: 17px;
-  color: #ffffff;
+  color: #a3cfca;
   margin-top: 20px;
   text-shadow: none;
   text-align: left;
   text-transform: uppercase;
   width: 75%;
 }
-
 p.sub-head {
   font-family: "Arapey", serif;
   font-weight: 400;
@@ -437,10 +450,9 @@ p.one-third {
   /*opacity: 0.5;*/
   display: block;
   width: 100%;
-  padding: 100px 0 0 0;
+  padding: 0;
   /*height: 90vh;*/
 }
-
 .hero-text {
    margin:  0px, 0px, 0px, 0px;
    width: 400px;
@@ -468,15 +480,19 @@ a.btn-library {
 a.btn-library:hover {
   color: #a3cfca;
 }
-.study > .container > nav > ul {
+.case-study-nav {
+  width: 100%;
+}
+.case-study-nav > nav > ul {
   padding: 0;
   float: left;
   display: block;
+  width: 100%;
 }
-.study > .container > nav > ul > li {
+.case-study-nav > nav > ul > li {
   display: inline-block;
 }
-.study > .container > nav > ul > li > a {
+.case-study-nav > nav > ul > li > a {
   text-decoration: none;
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   font-weight: 400;
@@ -484,7 +500,7 @@ a.btn-library:hover {
   color: #a3cfca;
   padding-right: 10px;
 }
-.study > .container > nav > ul > li > a:hover {
+.case-study-nav > nav > ul > li > a:hover {
   color: #4AA298;
 }
 /*.one-third {
@@ -557,26 +573,33 @@ h4.one-third {
 /*.container > .the-problem {
   float: left;
 }*/
-/*.the-problem > .one-third > h3 {
+.the-problem > h3 {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size: 24px;
   color: #a3cfca;
   text-align: left;
 }
-.the-problem > .one-third > p {
+.the-problem > p {
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size:1.1em;
-  line-height: 1.5;
+  font-weight: 300;
+  font-size:1em;
+  line-height: 1.4;
   color: #9b9b9b;
 }
-.the-problem > .one-third > h4 {
+.the-problem > h4 {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size: 18px;
   color: #a3cfca;
-}*/
+}
+.requirements, .two-thirds > h4 {
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #a3cfca;
+}
+ul.library-text, .one-half > li
 /*.the-problem > .one-third > ul {
   float: left;
 }*/
