@@ -52,31 +52,45 @@ p {
 }
 .one-half {
   width: 48%;
-  float: left;
   position: relative;
   min-height: 1px;
-  margin: 0 2% 20px;
+  /*margin: 0 2% 20px;*/
 }
 .one-third {
   width: 29.33333%;
-  float: left;
   position: relative;
   min-height: 1px;
-  margin: 0 2% 20px;
+  /*margin: 0 2% 20px;*/
 }
 .two-thirds {
   width: 58.66666%;
-  float: left;
   position: relative;
   min-height: 1px;
-  margin: 0 2% 20px;
+  /*margin: 0 2% 20px;*/
 }
 .one-fourth {
   width: 21%;
-  float: left;
   position: relative;
   min-height: 1px;
-  margin: 0 2% 20px;
+  /*margin: 0 2% 20px;*/
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.center {
+  margin: 0 auto;
+}
+.one-third > img {
+  width: 100%;
+}
+.one-half > img {
+  width: 100%;
+}
+.two-thirds > img {
+  width: 100%;
 }
 /* Homepage Media Queries for Tablet, Desktop*/
  @media (min-width: 768px) {
