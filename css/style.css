@@ -499,14 +499,7 @@ a.btn-library:hover {
   text-align: left; 
   width: 100%; 
 }
-.left > h4 {
-  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-  font-weight: 300;
-  font-size: 18px;
-  color: #a3cfca;
-  width: 100%;  
-}
-.right > h4 {
+.left > h4, .right > h4 {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-size: 18px;
@@ -520,34 +513,30 @@ a.btn-library:hover {
   color: #a3cfca;
   margin: 0;
 }
-.left > ul > li {
+.left > ul > li, .right > ul > li {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-size:1em;
   line-height: 1.4;
   color: #9b9b9b;
 }
+.the-problem, .antecedent, .user-research, .branding, .design-issues {
+  border-bottom: 1px solid #9b9b9b;
+  padding: 2em 0;
+}
 .precedent, .antecedent > h4 {
   text-align: center;
 }
 /*The Problem*/
-/*.precedent {
-  float: none;
-}
-.precedent > img {
+
+/*.antecedent > img {
   float: left;
-}
-.antecedent {
-  float: none;
 }*/
-.antecedent > img {
-  float: left;
-}
 /*CTA Section*/
 .CTA {
   width: 100%;
   background: #a3cfca;
-  padding: 50px 0;
+  padding: 5em 0;
 }
 .library-text > h1 {
   color: #ffffff;
