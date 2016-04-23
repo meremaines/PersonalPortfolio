@@ -352,9 +352,7 @@ a.email-address /*a.insta-handle*/ {
   text-decoration: none;
   display: block;
 }
-
 /*case study: library*/
-
 .hero-text > h1 {
   font-family: "Arapey", serif;
   font-weight: 400;
@@ -366,15 +364,18 @@ a.email-address /*a.insta-handle*/ {
   padding: 10px 0 0 0;
   clear: both;
 }
-/*.hero-text h2 {
+.hero-text h2 {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   font-weight: 400;
-  font-size:14px;
-  line-height: 12px;
+  font-size:1em;
+  line-height: 17px;
   color: #a3cfca;
+  margin-top: 20px;
   text-shadow: none;
   text-align: left;
-}*/
+  text-transform: uppercase;
+  width: 75%;
+}
 .hero-text > h3 {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   font-weight: 400;
@@ -401,34 +402,12 @@ a.email-address /*a.insta-handle*/ {
   font-size: 14px;
   color: #a3cfca;
 }
-/*.hero-text > p {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size:14px;
-  line-height: 19px;
-  color: #9b9b9b;
-}*/
-
-/*This is the text change Chris added*/
-.hero-text p {
+.hero-text > p {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size:1.1em;
   line-height: 1.5;
   color: #9b9b9b;
-}
-
-.hero-text h2 {
-  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-  font-weight: 400;
-  font-size:1em;
-  line-height: 17px;
-  color: #a3cfca;
-  margin-top: 20px;
-  text-shadow: none;
-  text-align: left;
-  text-transform: uppercase;
-  width: 75%;
 }
 p.sub-head {
   font-family: "Arapey", serif;
@@ -439,24 +418,13 @@ p.sub-head {
   text-align: left;
   text-shadow: none;
 }
-ul.library-text > li {
+ul.library-text > li { /*need to adjust this*/
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size:14px;
   line-height: 19px;
   color: #9b9b9b;
 }
-h4.contained {
-  margin: 0 auto;
-  text-align: center;
-}
-p.one-third {
-  float: none;
-}
-/*hero section library case study*/
-/*section.hero.library::before{
-  display: none;
-}*/
 #library.hero {
   background: #a3cfca url("../images/libraryhero.jpg") no-repeat;
   background-position: -150px -265px; /*horizontal, vertical*/
@@ -468,11 +436,10 @@ p.one-third {
   /*height: 90vh;*/
 }
 .hero-text {
-   margin:  0px, 0px, 0px, 0px;
-   width: 400px;
-   padding-bottom: 50px;
+  margin:  0px, 0px, 0px, 0px;
+  width: 400px;
+  padding-bottom: 50px;
  }
-
 .btn-library {
   padding: 10px;
   background-color: #a3cfca;
@@ -517,148 +484,62 @@ a.btn-library:hover {
 .case-study-nav > nav > ul > li > a:hover {
   color: #4AA298;
 }
-/*.one-third {
-  float: left;
-}*/
 .one-third > p {
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  font-size:1em;
-  line-height: 1.5;
-  color: #9b9b9b;
-}
-.one-third > h3 {
-  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-  font-weight: 400;
-  font-size: 24px;
-  color: #a3cfca;
-  text-align: left;  
-}
-.user-research > h3 {
-  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-  font-weight: 400;
-  font-size: 24px;
-  color: #a3cfca;
-  text-align: left;
-}
-.branding > h3 {
-  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-  font-weight: 400;
-  font-size: 24px;
-  color: #a3cfca;
-  text-align: left;  
-}
-.design-issues > h3 {
-  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-  font-weight: 400;
-  font-size: 24px;
-  color: #a3cfca;
-  text-align: left;  
-}
-.one-third > h4 {
-  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-  font-weight: 400;
-  font-size: 18px;
-  color: #a3cfca;  
-}
-.one-third > ul > li {
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  font-size:1em;
-  line-height: 1.5;
-  color: #9b9b9b;
-}
-.images {
-  float: left;
-}
-.images > img.one-fourth, img.one-third, img.one-half {
-  float: left;
-}
-/*ul.library-text {
-  float: left;
-}
-h4.one-third {
-  float: none;
-}
-.summary {
-  margin-bottom: 0;
-}*/
-/*The Problem*/
-/*.container > .the-problem {
-  float: left;
-}*/
-.the-problem > h3 {
-  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-  font-weight: 400;
-  font-size: 24px;
-  color: #a3cfca;
-  text-align: left;
-}
-.the-problem > p {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-size:1em;
   line-height: 1.4;
   color: #9b9b9b;
 }
-.the-problem > h4 {
+.left > h3 {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-  font-weight: 400;
+  font-weight: 300;
+  font-size: 24px;
+  color: #a3cfca;
+  text-align: left; 
+  width: 100%; 
+}
+.left > h4 {
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-weight: 300;
   font-size: 18px;
   color: #a3cfca;
+  width: 100%;  
 }
-.requirements, .two-thirds > h4 {
+.right > h4 {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 18px;
   color: #a3cfca;
+  width: 100%;  
 }
-ul.library-text, .one-half > li
-/*.the-problem > .one-third > ul {
-  float: left;
-}*/
-/*.the-problem > .one-third > ul > li {
+.right > h5 {
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #a3cfca;
+  margin: 0;
+}
+.left > ul > li {
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size:1.1em;
-  line-height: 1.5;
+  font-weight: 300;
+  font-size:1em;
+  line-height: 1.4;
   color: #9b9b9b;
 }
-.the-problem > h4 {
-  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-  font-weight: 400;
-  font-size: 18px;
-  color: #a3cfca;
-}*/
-.precedent {
-  float: none;
-}
-.precedent > h4 {
-  width: 100%;
-  margin: 1.5em auto;
-  float: left;
+.precedent, .antecedent > h4 {
   text-align: center;
-  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-  font-weight: 400;
-  font-size: 18px;
-  color: #a3cfca;
+}
+/*The Problem*/
+/*.precedent {
+  float: none;
 }
 .precedent > img {
   float: left;
 }
 .antecedent {
   float: none;
-}
-.antecedent > h4 {
-  width: 100%;
-  margin: 1.5em auto;
-  float: left;
-  text-align: center;
-  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-  font-weight: 400;
-  font-size: 18px;
-  color: #a3cfca;
-}
+}*/
 .antecedent > img {
   float: left;
 }
@@ -668,20 +549,24 @@ ul.library-text, .one-half > li
   background: #a3cfca;
   padding: 50px 0;
 }
-.CTA > h1.library-text {
+.library-text > h1 {
   color: #ffffff;
   text-align: center;
   margin: 0 auto;
   padding: 0;
   text-shadow: 1px 2px #4AA298;
 }
-.CTA > a.btn-library {
+.CTA-btn {
+  display: block;
+  margin: 0 auto;
+}
+.CTA-btn > a.btn-library {
   color: #a3cfca;
   background: #ffffff;
   border: none;
   text-align: center;
 }
-.CTA > a.btn-library:hover {
+.CTA-btn> a.btn-library:hover {
   color: #a3cfca;
   background: #4AA298;
   border: none;
