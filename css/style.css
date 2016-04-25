@@ -76,9 +76,11 @@ p {
 }
 .left {
   float: left;
+  margin-right: 2%;
 }
 .right {
   float: right;
+  margin-left: 2%;
 }
 .center {
   margin: 0 auto;
@@ -527,11 +529,16 @@ a.btn-library:hover {
 .precedent, .antecedent > h4 {
   text-align: center;
 }
+.precedent > .one-third > img, .antecedent > .one-third > img {
+  border: 1px solid #9b9b9b;
+}
 /*The Problem*/
-
-/*.antecedent > img {
-  float: left;
-}*/
+.comp-analysis-imgs > .one-half > img {
+  margin: 0 0 10px 0;
+  border: 1px solid #9b9b9b;
+  max-height: 200px;
+  overflow: hidden;
+}
 /*CTA Section*/
 .CTA {
   width: 100%;
