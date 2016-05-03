@@ -62,6 +62,9 @@ p {
   min-height: 1px;
   /*margin: 0 2% 20px;*/
 }
+.precedent > .one-third, .antecedent > .one-third, .personas, .user-stories, .user-flows {
+  width: 32%;
+}
 .two-thirds {
   width: 58.66666%;
   position: relative;
@@ -493,7 +496,7 @@ a.btn-library:hover {
   line-height: 1.4;
   color: #9b9b9b;
 }
-.left > h3 {
+.one-third > h3, .left > h3 {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-size: 24px;
@@ -501,14 +504,14 @@ a.btn-library:hover {
   text-align: left; 
   width: 100%; 
 }
-.left > h4, .right > h4 {
+.one-third > h4, .left > h4, .right > h4 {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-size: 18px;
   color: #a3cfca;
   width: 100%;  
 }
-.right > h5 {
+.one-third > h5, .right > h5 {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size: 12px;
@@ -529,8 +532,20 @@ a.btn-library:hover {
 .precedent, .antecedent > h4 {
   text-align: center;
 }
-.precedent > .one-third > img, .antecedent > .one-third > img {
+.image-before, .image-after {
   border: 1px solid #9b9b9b;
+}
+.left-call {
+  margin: 0;
+  float: left;
+}
+.mid-call {
+  margin: 0 2%;
+  float: left;
+}
+.right-call {
+  margin: 0;
+  float: right;
 }
 /*The Problem*/
 .comp-analysis-imgs > .one-half > img {
@@ -554,7 +569,8 @@ a.btn-library:hover {
 }
 .CTA-btn {
   display: block;
-  margin: 0 auto;
+  margin: 20px auto 0;
+  text-align: center;
 }
 .CTA-btn > a.btn-library {
   color: #a3cfca;
