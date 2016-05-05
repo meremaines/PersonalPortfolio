@@ -594,3 +594,15 @@ a.btn-library:hover {
 /*.headline.work a.btn, .headline.work a.btn:hover {
   width: 10%;
 }*/
+/*ABOUT*/
+.Hover_LA /*.Hover_NY, .Hover_WC, .Hover_BJ, .Hover_NJ, .Hover_TX, .Hover_HT, .Hover_ZM, .Hover_TBD*/ {
+  width: inherit;
+  /*opacity: 0.7;*/
+  background: #FFD459;
+  z-index: 1;
+  display: none;
+  /*margin-top: -300px;*/  
+}
+#LA:hover .Hover_LA /*#NY:hover .Hover_NY, #WC:hover .Hover_WC, #BJ:hover .Hover_BJ, #NJ:hover .Hover_NJ, #TX:hover .Hover_TX, #HT:hover .Hover_HT, #ZM:hover .Hover_ZM, #TBD:hover .Hover_TBD*/ {
+  display: block;
+}
