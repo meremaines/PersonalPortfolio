@@ -501,15 +501,15 @@ a.btn-library:hover {
   font-weight: 300;
   font-size: 24px;
   color: #a3cfca;
-  text-align: left; 
-  width: 100%; 
+  text-align: left;
+  width: 100%;
 }
 .one-third > h4, .left > h4, .right > h4 {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-size: 18px;
   color: #a3cfca;
-  width: 100%;  
+  width: 100%;
 }
 .one-third > h5, .right > h5 {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
@@ -601,8 +601,9 @@ a.btn-library:hover {
   background: #FFD459;
   z-index: 1;
   display: none;
-  /*margin-top: -300px;*/  
+  /*margin-top: -300px;*/
 }
-#LA:hover .Hover_LA /*#NY:hover .Hover_NY, #WC:hover .Hover_WC, #BJ:hover .Hover_BJ, #NJ:hover .Hover_NJ, #TX:hover .Hover_TX, #HT:hover .Hover_HT, #ZM:hover .Hover_ZM, #TBD:hover .Hover_TBD*/ {
-  display: block;
+
+div #LA:hover > .Hover /*#NY:hover .Hover_NY, #WC:hover .Hover_WC, #BJ:hover .Hover_BJ, #NJ:hover .Hover_NJ, #TX:hover .Hover_TX, #HT:hover .Hover_HT, #ZM:hover .Hover_ZM, #TBD:hover .Hover_TBD*/ {
+  /*display: block;*/
 }

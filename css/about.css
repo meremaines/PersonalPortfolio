@@ -1,0 +1,33 @@
+.fullwidth {
+  width: 200%;
+}
+
+.abs {
+  width: 100%;
+  z-index: 0;
+  position: absolute;
+  top: 0;
+  height: 300px;
+  overflow: hidden;  
+}
+
+.toptype {
+  z-index: 1;
+  position: relative;
+}
+
+.Hover {
+  background-color: green;
+  position: relative;
+
+  z-index: 2;
+  display: none;
+}
+
+#LA:hover > .Hover, #NY:hover > .Hover, #WC:hover > .Hover, #BJ:hover > .Hover {
+  display: block;
+}
+
+#LA:hover > .toptype {
+  display: none;
+}
