@@ -6,10 +6,11 @@
   margin-top: 50px;
 }
 
-.about-height {
+.about-cell {
   height: 300px;
   overflow: hidden;
   margin-bottom: 30px;
+  width: 32%;
 }
 
 .abs {
@@ -27,7 +28,8 @@
 }
 
 .Hover {
-  background-color: rgba(255,0,0,.8);
+  background-color: green;
+  transition-property: background-color;
   color: #fff;
   position: relative;
   height: 300px;
@@ -35,10 +37,14 @@
   z-index: 2;
   display: none;
   padding: 20px;
+  opacity: 0;
 }
 
 #LA:hover > .Hover, #NY:hover > .Hover, #WC:hover > .Hover, #BJ:hover > .Hover {
   display: block;
+  opacity: 1;
+  transition-duration: 2s;
+  transform-style: ease-in;
 }
 
 #LA:hover > .toptype {
