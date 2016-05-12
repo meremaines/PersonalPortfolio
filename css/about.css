@@ -2,13 +2,23 @@
   width: 200%;
 }
 
+.bio-grid {
+  margin-top: 50px;
+}
+
+.about-height {
+  height: 300px;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
 .abs {
   width: 100%;
   z-index: 0;
   position: absolute;
   top: 0;
   height: 300px;
-  overflow: hidden;  
+  overflow: hidden;
 }
 
 .toptype {
@@ -17,11 +27,14 @@
 }
 
 .Hover {
-  background-color: green;
+  background-color: rgba(255,0,0,.8);
+  color: #fff;
   position: relative;
-
+  height: 300px;
+  overflow: hidden;
   z-index: 2;
   display: none;
+  padding: 20px;
 }
 
 #LA:hover > .Hover, #NY:hover > .Hover, #WC:hover > .Hover, #BJ:hover > .Hover {
