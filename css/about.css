@@ -10,7 +10,24 @@
 #WC-img {
   width: 450%;
 }
-
+#BJ-img {
+  width: 450%;
+}
+#NJ-img {
+  width: 150%;
+}
+#TX-img {
+  width: 250%;
+}
+#HT-img {
+  width: 200%;
+}
+#ZM-img {
+  width: 250%;
+}
+#TBD-img {
+  width: 300%;
+}
 .bio-grid {
   margin-top: 50px;
 }
@@ -18,13 +35,13 @@
 .about-cell {
   height: 500px;
   overflow: hidden;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
   width: 32%;
   position: relative;
 }
 
 .side-call {
-  margin: 0;
+  margin: 0, 0, 0, 25px;
   float: left;
 }
 
@@ -43,7 +60,6 @@
 
 .Hover {
   background-color: green;
-  transition-property: background-color;
   color: #fff;
   position: absolute;
   top: 0;
@@ -52,16 +68,36 @@
   z-index: 2;
   display: none;
   padding: 20px;
+  visibility: hidden;
   opacity: 0;
-}
-
-#LA:hover > .Hover, #NY:hover > .Hover, #WC:hover > .Hover, #BJ:hover > .Hover {
-  display: block;
-  opacity: 1;
-  transition-duration: 2s;
+  transition: opacity 3s, visibility 3s;
   transform-style: ease-in;
 }
 
-#LA:hover > .toptype {
+#LA:hover > .Hover, #NY:hover > .Hover, #WC:hover > .Hover, #BJ:hover > .Hover, #NJ:hover > .Hover, #TX:hover > .Hover, #HT:hover > .Hover, #ZM:hover > .Hover, #TBD:hover > .Hover {
+  visibility: visible;
+  display: block;
+  opacity: 1;
+}
+
+#LA:hover > .toptype, #NY:hover > .toptype, #WC:hover > .toptype, #BJ:hover > .toptype, #NJ:hover > .toptype, #TX:hover > .toptype, #HT:hover > .toptype, #ZM:hover > .toptype, #TBD:hover > .toptype {
   display: none;
 }
+
+/*.toptype {
+  width: 100%;
+  height: 100px;
+  visibility: hidden;
+  background-color: green;
+  -webkit-transition: background-color 5s;
+  -moz-transition: background-color 5s;
+  -o-transition: background-color 5s;
+  -ms-transition: background-color 5s;
+  transition: background-color 5s;
+  transform-style: ease-in;
+}
+
+.abs:hover > .toptype {
+  visibility: visible;
+  background-color: red;
+}*/
