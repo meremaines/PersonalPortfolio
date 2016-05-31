@@ -1,5 +1,14 @@
 .fullwidth {
-  width: 200%;
+  width: 100%;
+}
+#LA-img {
+  width: 250%;
+}
+#NY-img {
+  width: 150%;
+}
+#WC-img {
+  width: 450%;
 }
 
 .bio-grid {
@@ -7,18 +16,23 @@
 }
 
 .about-cell {
-  height: 300px;
+  height: 500px;
   overflow: hidden;
   margin-bottom: 30px;
   width: 32%;
+  position: relative;
+}
+
+.side-call {
+  margin: 0;
+  float: left;
 }
 
 .abs {
-  width: 100%;
   z-index: 0;
   position: absolute;
   top: 0;
-  height: 300px;
+  height: 500px;
   overflow: hidden;
 }
 
@@ -31,8 +45,9 @@
   background-color: green;
   transition-property: background-color;
   color: #fff;
-  position: relative;
-  height: 300px;
+  position: absolute;
+  top: 0;
+  height: 500px;
   overflow: hidden;
   z-index: 2;
   display: none;
