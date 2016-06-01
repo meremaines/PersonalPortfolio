@@ -3,6 +3,7 @@
 }
 #LA-img {
   width: 250%;
+  top: -100px;
 }
 #NY-img {
   width: 150%;
@@ -57,7 +58,22 @@
   z-index: 1;
   position: relative;
 }
-
+.toptype > h3 {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 350px;
+}
+.toptype > h4 {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 10px;
+}
+.toptype > h3, .toptype > h4 {
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #4a4a4a;
+}
 .Hover {
   background-color: green;
   color: #fff;
