@@ -2,32 +2,31 @@
   width: 100%;
 }
 #LA-img {
-  width: 250%;
-  top: -100px;
+  width: 300%;
 }
 #NY-img {
   width: 150%;
 }
 #WC-img {
-  width: 450%;
+  width: 400%;
 }
 #BJ-img {
-  width: 450%;
+  width: 215%;
 }
 #NJ-img {
-  width: 150%;
+  width: 175%;
 }
 #TX-img {
-  width: 250%;
+  width: 245%;
 }
 #HT-img {
   width: 200%;
 }
 #ZM-img {
-  width: 250%;
+  width: 225%;
 }
 #TBD-img {
-  width: 300%;
+  width: 225%;
 }
 .bio-grid {
   margin-top: 50px;
@@ -53,7 +52,44 @@
   height: 500px;
   overflow: hidden;
 }
-
+.yellow-overlay {
+  background-color: rgba(255, 212, 89, .5);
+}
+.abs > img {
+  position: relative;
+}
+.abs > #LA-img {
+  top: -100px;
+  left: -75px;
+}
+.abs > #NY-img {
+  left: -50px;
+}
+.abs > #WC-img {
+  left: -500px;
+  top: -200px;
+}
+.abs > #BJ-img {
+  left: -160px;
+}
+.abs > #NJ-img {
+  top: -100px;
+  left: -75px;
+}
+.abs > #TX-img {
+  left: -250px;
+}
+.abs > #HT-img {
+  left: -115px;
+  top: -50px;
+}
+.abs > #ZM-img {
+  left: -225px;
+  top: -140px;
+}
+.abs > #TBD-img {
+  left: -175px;
+}
 .toptype {
   z-index: 1;
   position: relative;
