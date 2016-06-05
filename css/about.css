@@ -54,6 +54,10 @@
 }
 .yellow-overlay {
   background-color: rgba(255, 212, 89, .5);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 9;
 }
 .abs > img {
   position: relative;
@@ -107,7 +111,7 @@
 .toptype > h3, .toptype > h4 {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 20px;
   color: #4a4a4a;
 }
 .Hover {
