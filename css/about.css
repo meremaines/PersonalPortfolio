@@ -123,8 +123,8 @@
   overflow: hidden;
   z-index: 2;
   padding: 20px;
-  opacity: 0;
-  visibility:hidden;
+  opacity: 1;
+  visibility: visible;
   -webkit-transition: opacity 1s, ease-in;
   transition: opacity 1s, ease-in;
 }
