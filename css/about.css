@@ -210,3 +210,89 @@
     left: -150px;
   }
 }
+@media (max-width: 695px) {
+/*  .mid-call {
+    margin: 0;
+  }
+  .side-call {
+    margin: 0;
+  }*/
+  .abs {
+    width: 100%;
+  }
+  .about-cell {
+    width: 100%;
+    margin: 0 0 25px 0;
+  }
+  #LA:hover > .Hover, #NY:hover > .Hover, #WC:hover > .Hover, #BJ:hover > .Hover, #NJ:hover > .Hover, #TX:hover > .Hover, #HT:hover > .Hover, #ZM:hover > .Hover, #TBD:hover > .Hover {
+    visibility:visible;
+    display: none;
+    opacity: 1;
+  }
+  #LA:hover > .toptype, #NY:hover > .toptype, #WC:hover > .toptype, #BJ:hover > .toptype, #NJ:hover > .toptype, #TX:hover > .toptype, #HT:hover > .toptype, #ZM:hover > .toptype, #TBD:hover > .toptype {
+  display: block;
+  }
+  #LA-img {
+    width: 100%;
+  }
+  #NY-img {
+    width: 100%;
+  }
+  #WC-img {
+   width: 175%;
+  }
+  #BJ-img {
+    width: 100%;
+  }
+  #NJ-img {
+    width: 100%;
+  }
+  #TX-img {
+   width: 100%;
+  }
+  #HT-img {
+    width: 114%;
+  }
+  #ZM-img {
+    width: 140%;
+  }
+  #TBD-img {
+    width: 125%;
+  }
+  .abs > #TBD-img {
+    top: -25px;
+    left: -75px;
+  }
+  .abs > #ZM-img {
+    left: -125px;
+    top: -255px;
+  }
+  .abs > #HT-img {
+    left: 0px;
+    top: -170px;
+  }
+  .abs > #TX-img {
+    left: 0;
+    top: -30px;
+  }
+  .abs > #NJ-img {
+    left: 0;
+    top: -190px;
+  }
+  .abs > #BJ-img {
+    left: 0;
+    top: -60px;
+  }
+  .abs > #WC-img {
+    left: -450px;
+    top: -200px;
+  }
+  .abs > #NY-img {
+    left: 0;
+    top: -35px;
+  }
+  .abs > #LA-img {
+    left: 0;
+    top: -100px;
+  }
+}
