@@ -314,3 +314,51 @@
     top: -100px;
   }
 }
+@media (max-width: 540px) {
+  #LA-img {
+    width: 150%;
+  }
+  #WC-img {
+   width: 210%;
+  }
+  #BJ-img {
+    width: 120%;
+  }
+  #TX-img {
+   width: 145%;
+  }
+  #ZM-img {
+    width: 140%;
+  }
+  #TBD-img {
+    width: 135%;
+  }
+  .abs > #TBD-img {
+    left: -75px;
+  }
+  .abs > #ZM-img {
+    left: -100px;
+    top: -140px;
+  }
+  .abs > #HT-img {
+    top: -60px;
+  }
+  .abs > #TX-img {
+    left: -90px;
+  }
+  .abs > #NJ-img {
+    left: 0;
+    top: -100px;
+  }
+  .abs > #BJ-img {
+    left: 0;
+    top: 0;
+  }
+  .abs > #WC-img {
+    left: -350px;
+    top: -125px;
+  }
+  .abs > #LA-img {
+    top: -45px;
+  }
+}
