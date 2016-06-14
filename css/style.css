@@ -158,6 +158,15 @@ p {
   .site-logo {
      width: 46%;
   }
+  img.logo-png {
+    height: 125px;
+    padding-top: 0;
+    float: left;
+    display: block;
+  }
+  .mobile-logo {
+    display: none;
+  }
   .navigation-items {
      /*width: 46%;*/
      float: right;
@@ -198,10 +207,41 @@ p {
      display: none;
   }
 }
+@media (min-width: 768px) {
+  img.logo-png {
+    height: 125px;
+    padding-top: 0;
+    float: left;
+    display: block;
+  }
+  .mobile-logo {
+    display: none;
+  }
+}
+/*at mobile-first width*/
 img.logo-png {
-  height: 125px;
+  display: none;
+  }
+.mobile-logo {
+  display: block;
   padding-top: 0;
   float: left;
+  max-height: 50px;
+  width: 25%;
+}
+.mobile-logo > h5 {
+  color: #FFD459;
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size:12px;
+  margin-bottom: 0;
+}
+.mobile-logo > h6 {
+  color: #FFD459;
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size:16px;
+  margin-top: 0;
 }
 nav > .contained > .container > a.hamburger-icon, i.fa-bars {
   float: right;
