@@ -213,46 +213,49 @@ p {
     padding-top: 0;
     float: left;
     display: block;
+    position: absolute;
   }
   .mobile-logo {
     display: none;
   }
 }
 /*at mobile-first width*/
-img.logo-png {
-  display: none;
+@media (max-width: 500px) {
+  img.logo-png {
+    display: none;
+    }
+  .mobile-logo {
+    display: block;
+    padding-top: 0;
+    float: left;
+    max-height: 50px;
+    width: 25%;
   }
-.mobile-logo {
-  display: block;
-  padding-top: 0;
-  float: left;
-  max-height: 50px;
-  width: 25%;
-}
-.mobile-logo > h5 {
-  color: #FFD459;
-  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-  font-weight: 400;
-  font-size:12px;
-  margin-bottom: 0;
-}
-.mobile-logo > h6 {
-  color: #FFD459;
-  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-  font-weight: 400;
-  font-size:16px;
-  margin-top: 0;
-}
-nav > .contained > .container > a.hamburger-icon, i.fa-bars {
-  float: right;
-  color: #B2902C;
-  margin: 20px 0 0 0;
-  padding: 5px;
-  background-color: #FFD459;
-}
-nav > .contained > .container > a.hamburger-icon, i.fa-bars:hover {
-  color: #FFD459;
-  background-color: #B2902C;
+  .mobile-logo > h5 {
+    color: #FFD459;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size:12px;
+    margin-bottom: 0;
+  }
+  .mobile-logo > h6 {
+    color: #FFD459;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size:16px;
+    margin-top: 0;
+  }
+  nav > .contained > .container > a.hamburger-icon, i.fa-bars {
+    float: right;
+    color: #B2902C;
+    margin: 20px 0 0 0;
+    padding: 5px;
+    background-color: #FFD459;
+  }
+  nav > .contained > .container > a.hamburger-icon, i.fa-bars:hover {
+    color: #FFD459;
+    background-color: #B2902C;
+  }
 }
 .hero {
   background: #78b7da url("../images/hero_img.jpg") no-repeat;
