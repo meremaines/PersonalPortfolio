@@ -209,6 +209,14 @@
   .abs > #TBD-img {
     left: -150px;
   }
+  #LA:focus > .Hover, #NY:focus > .Hover, #WC:focus > .Hover, #BJ:focus > .Hover, #NJ:focus > .Hover, #TX:focus > .Hover, #HT:focus > .Hover, #ZM:focus > .Hover, #TBD:focus > .Hover {
+    visibility:visible;
+    display: block;
+    opacity: 1;
+  }
+  #LA:hover > .toptype, #NY:hover > .toptype, #WC:hover > .toptype, #BJ:hover > .toptype, #NJ:hover > .toptype, #TX:hover > .toptype, #HT:hover > .toptype, #ZM:hover > .toptype, #TBD:hover > .toptype {
+    display: none;
+  }
 }
 @media (max-width: 695px) {
 /*  .mid-call {
@@ -224,13 +232,13 @@
     width: 100%;
     margin: 0 0 25px 0;
   }
-  #LA:hover > .Hover, #NY:hover > .Hover, #WC:hover > .Hover, #BJ:hover > .Hover, #NJ:hover > .Hover, #TX:hover > .Hover, #HT:hover > .Hover, #ZM:hover > .Hover, #TBD:hover > .Hover {
+  #LA:focus > .Hover, #NY:focus > .Hover, #WC:focus > .Hover, #BJ:focus > .Hover, #NJ:focus > .Hover, #TX:focus > .Hover, #HT:focus > .Hover, #ZM:focus > .Hover, #TBD:focus > .Hover {
     visibility:visible;
-    display: none;
+    display: block;
     opacity: 1;
   }
   #LA:hover > .toptype, #NY:hover > .toptype, #WC:hover > .toptype, #BJ:hover > .toptype, #NJ:hover > .toptype, #TX:hover > .toptype, #HT:hover > .toptype, #ZM:hover > .toptype, #TBD:hover > .toptype {
-  display: block;
+  display: none;
   }
   #LA-img {
     width: 100%;
