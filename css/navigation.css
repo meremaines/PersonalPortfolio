@@ -4,6 +4,7 @@
   color: #FFD459;
   top: -50px;
   width: 100%;
+  padding-bottom: 150px;
   /*position: absolute;*/
 }
 .navigation-items > ul {
@@ -41,19 +42,25 @@ img.logo-png {
   max-height: 50px;
   width: 25%;
 }
-.mobile-logo > h5 {
+.mobile-logo > a {
+  text-decoration: none;
+}
+.mobile-logo > a > h5 {
   color: #FFD459;
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size:12px;
   margin-bottom: 0;
 }
-.mobile-logo > h6 {
+.mobile-logo > a > h6 {
   color: #FFD459;
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size:16px;
   margin-top: 0;
+}
+.mobile-logo > a > h5:hover, .mobile-logo > a > h6:hover {
+  color: #B2902C;
 }
 nav > .contained > .container > a.hamburger-icon, i.fa-bars {
   float: right;
