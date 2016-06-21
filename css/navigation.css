@@ -59,7 +59,7 @@ img.logo-png {
   font-size:16px;
   margin-top: 0;
 }
-.mobile-logo > a > h5:hover, .mobile-logo > a > h6:hover {
+.mobile-logo > a > h5:hover {
   color: #B2902C;
 }
 nav > .contained > .container > a.hamburger-icon, i.fa-bars {
