@@ -124,8 +124,8 @@ p {
 }*/
 .hero {
   background: #78b7da url("../images/hero_img.jpg") no-repeat;
-  background-position: center center;
-  background-size: cover;
+  background-position: -50px -300px;
+  background-size: auto 175%;
   display: block;
   width: 100%;
   position: relative;
@@ -207,6 +207,95 @@ h2 {
 }
 .headline.work a.btn, .headline.work a.btn:hover {
   width: 10%;
+}
+.home-cell {
+  height: 200px;
+  overflow: hidden;
+  margin-bottom: 25px;
+  width: 32%;
+  position: relative;
+  padding: 40px 0 60px 0; 
+}
+.side-call {
+  float: left;
+}
+.home-abs {
+  z-index: 0;
+  position: absolute;
+  height: 200px;
+  overflow: hidden;
+}
+.toptype > h5 {
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  color: #4a4a4a;
+  text-align: center;
+  margin: 0 auto;  
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 120px;
+}
+.featured-work > .ruled-line {
+  height: 5px;
+  width: 100%;
+  background: #FFD459;
+}
+/*.work-headline > h1 {
+  padding: 40px 0 25px 0; 
+}*/
+.work-grid {
+  padding: 25px 0 40px 0;
+}
+.yellow-overlay {
+  background-color: rgba(255, 212, 89, .5);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 9;
+}
+.Hover {
+  background-color: #FFD459;
+  color: #B2902C;
+  position: absolute;
+  top: 0;
+  height: 200px;
+  overflow: hidden;
+  z-index: 2;
+  padding: 20px;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: opacity 1s, ease-in;
+  transition: opacity 1s, ease-in;
+}
+.Hover > h5 {
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  color: #B2902C;
+  text-align: center;
+  margin: 0 auto;  
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 20px;
+}
+.Hover > p {
+  padding: 0 10px;
+  text-align: center;
+}
+#WR:hover > .Hover, #EV:hover > .Hover, #LI:hover > .Hover {
+  visibility:visible;
+  display: block;
+  opacity: 1;
+}
+
+#WR:hover > .toptype, #EV:hover > .toptype, #LI:hover > .toptype {
+  display: none;
+}
+#EV-img {
+  width: 100%;
+}
+#LI-img {
+  width: 100%;
+}
+.featured-work {
+  padding-bottom: 60px;
 }
 /*case study: library*/
 .hero-text > h1 {

@@ -12,7 +12,6 @@
    	<link rel="stylesheet" href="css/normalize.css">
  	<link rel="stylesheet" href="css/style.css">
  	<link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/about.css">
   <link rel="stylesheet" href="css/navigation.css">
  </head>
  <body>
@@ -29,7 +28,6 @@
             </div>
             <div class="navigation-items">
               <ul>
-                <li><a href="work.html">WORK</a></li>
                 <li><a href="about.html">ABOUT</a></li>
                 <li><a href="resume.html">RESUME</a></li>
                 <li><a href="email.html" class="btn email-me">EMAIL ME!</a></li>
@@ -45,7 +43,7 @@
  		<section class="hero">
  			<div class="container headline">
  					<h1>simple, refreshing, friendly</h1>
- 					<h2>UX DESIGN + WRITING FOR PRINT AND WEB</h2>
+ 					<h2>UX DESIGN + WRITING FOR PRINT AND WEB, FROM THE HEART OF HOUSTON, TEXAS</h2>
  					<a href="work.html" class="btn">SEE MY WORK</a>
   			</div>
   		</section>	
@@ -54,34 +52,64 @@
 <section class="featured-work">
   <div class="full-width ruled-line"></div>
   <div class="container">
-    <h1>featured work</h1>
-    <div class="writing-work side-call">
-      <h5>WRITING</h5>
+    <div class="work-headline">
+      <h1>featured work</h1>
+    </div> 
+    <div class="work-grid"> 
+    <!-- writing -->
+      <div class="writing-work home-cell side-call" id="WR">
+        <div class="toptype">
+          <h5>WRITING</h5>
+        </div>  
+        <div class="home-abs">
+          <div class="yellow-overlay"></div>
+          <img src="" id="WR-img" class="fullwidth">
+        </div> 
+        <div class="Hover">
+          <h5>WRITING</h5>
+          <p>something will go here about my TBD writing work sample</p>
+        </div>
+      </div>  
+    <!-- enveloop -->
+      <div class="enveloop-work home-cell mid-call" id="EV">
+        <div class="toptype">
+          <h5>ENVELOOP</h5>
+        </div>  
+        <div class="home-abs">
+          <div class="yellow-overlay"></div>
+          <img src="images/enveloop_screenshot.png" id="EV-img" class="fullwidth">
+        </div>    
+        <div class="Hover">
+          <h5>ENVELOOP</h5>
+          <p>an app to store photos, files, notes, and inspiration</p>
+        </div>
+      </div>  
+    <!-- library -->
+      <a href="casestudy_library3.html"><div class="library-work home-cell side-call" id="LI">
+        <div class="toptype">
+          <h5>SHREVE MEMORIAL LIBRARY</h5>
+        </div>  
+        <div class="home-abs">
+          <div class="yellow-overlay"></div>
+          <img src="images/Homepage-Updated.jpg" id="LI-img" class="fullwidth">
+        </div>    
+        <div class="Hover">
+          <h5>SHREVE MEMORIAL LIBRARY</h5>
+          <p>a site overhaul to simplify online library memebership</p>
+        </div> 
+      </div></a>    
     </div>
-    <div class="Hover">
-      <p>something will go here about my TBD writing work sample</p>
-    </div>
-    <div class="enveloop-work mid-call">
-      <h5>ENVELOOP</h5>
-    </div>
-    <div class="Hover">
-      <p>an app to house your photos, files, notes, and inspiration</p>
-    </div>
-    <div class="library-work side-call">
-      <h5>LOCAL LIBRARY</h5>
-    </div>
-    <div class="Hover">
-      <p>a site overhaul to simplify online library memebership</p>
-    </div>    
-  </div>
 </section>
 <!-- Footer -->
  <footer>
    <div class="full-width ruled-line"></div>
    <div class="container"> 
     <div class="footer-text-block">
-      <p class="copyright">&copy; 2016 MEREDITH MAINES-ALL RIGHTS RESERVED</p>
-      <p><a href="mailto:meredithmaines@gmail.com" class="email-address">meredithmaines@gmail.com</a></p>
+      <p class="copyright">&copy; 2016 MEREDITH MAINES<span>&mdash;ALL RIGHTS RESERVED</span></p>
+      <div class="footer-icons">
+        <a href="mailto:meredithmaines@gmail.com" class="email-icon"><i class="fa fa-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/meredithmaines"><i class="fa fa-linkedin"></i></a>
+      </div>
     </div>  
    </div>
  </footer>
