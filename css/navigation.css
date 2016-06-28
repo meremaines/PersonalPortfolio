@@ -51,20 +51,20 @@ img.logo-png {
   font-size:12px;
   margin-bottom: 0;
 }
-.mobile-logo > a > h6 {
+.mobile-logo > a > h5 > .last-name {
   color: #FFD459;
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size:16px;
   margin-top: 0;
 }
-.mobile-logo > a > h5:hover {
+.mobile-logo > a > h5:hover, .mobile-logo > a > h5 > .last-name:hover {
   color: #B2902C;
 }
 nav > .contained > .container > a.hamburger-icon, i.fa-bars {
   float: right;
   color: #B2902C;
-  margin: 20px 0 0 0;
+  margin: 20px 30px 0 0;
   padding: 5px;
   background-color: #FFD459;
 }
@@ -103,7 +103,7 @@ nav > .contained > .container > a.hamburger-icon, i.fa-bars:hover {
   }
   .navigation-items > ul {
      display: block;
-     margin: 15px 10px 0 0;
+     margin: 15px 30px 0 0;
   }
   .navigation-items ul > li {
      display: inline-block;
