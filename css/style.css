@@ -124,8 +124,8 @@ p {
 }*/
 .hero {
   background: #78b7da url("../images/hero_img.jpg") no-repeat;
-  background-position: -50px -300px;
-  background-size: auto 175%;
+  background-position: -190px -350px;
+  background-size: auto 165%;
   display: block;
   width: 100%;
   position: relative;
@@ -159,7 +159,7 @@ section.hero::before{
   }
 }*/
 .headline {
-  padding: 200px 0 0 0;
+  padding: 120px 0 220px 0;
 }
 .headline.work {
   padding: 75px 0 0 0;
