@@ -36,13 +36,22 @@
             </div>
           </div>
         </nav>
+        <nav>
+          <div class="sub-nav">
+            <ul>
+              <li><a href="about.html">ABOUT</a></li>
+              <li><a href="#">RESUME</a></li>
+              <li><a href="#">EMAIL ME!</a></li>
+            </ul>
+          </div>
+        </nav>
       </div>
     </div>
  		<!-- Hero -->
  		<section class="hero">
  			<div class="container headline">
  					<h1>simple, refreshing, friendly</h1>
- 					<h2><span class="title">UX DESIGN + WRITING FOR PRINT &amp; WEB,</span>
+ 					<h2><span class="title">UX DESIGN + WRITING FOR PRINT &amp; WEB</span>
           <span class="htown">FROM THE HEART OF HOUSTON, TEXAS</span>
           </h2>
  					<a href="work.html" class="btn">SEE MY WORK</a>
@@ -116,3 +125,11 @@
  </footer>
  </body>
  </html>
+
+ <script src="js/jquery-3.0.0.min.js"></script>
+ <script>
+   $(".fa-bars").on("click", function() {
+    $(".sub-nav").toggle();
+   }
+ </script>
+
