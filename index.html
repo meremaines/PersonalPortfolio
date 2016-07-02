@@ -33,16 +33,18 @@
               </ul>
 
               <a href="#" class="hamburger-icon"><i class="fa fa-bars"></i></a>
+              <a href="#" class="x-icon"><i class="fa fa-close"></i></a>
             </div>
           </div>
         </nav>
         <nav>
           <div class="sub-nav">
-            <ul>
-              <li><a href="about.html">ABOUT</a></li>
-              <li><a href="#">RESUME</a></li>
-              <li><a href="#">EMAIL ME!</a></li>
-            </ul>
+            <div class="full-width ruled-line"></div>
+              <ul>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="#">RESUME</a></li>
+                <li><a href="#">EMAIL ME!</a></li>
+              </ul>
           </div>
         </nav>
       </div>
@@ -128,8 +130,15 @@
 
  <script src="js/jquery-3.0.0.min.js"></script>
  <script>
-   $(".fa-bars").on("click", function() {
-    $(".sub-nav").toggle();
+    $(".fa-bars").on("click", function() {
+      $(".sub-nav").toggle();
+      $(".fa-bars").hide();
+      $(".fa-close").toggle();
    }
+    $(".fa-close").on("click", function() {
+      $("fa-close").hide();
+      $(".sub-nav").toggle();
+      $(".fa-bars").toggle();
+    } 
  </script>
 

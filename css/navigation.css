@@ -72,12 +72,25 @@ nav > .contained > .container > a.hamburger-icon, i.fa-bars:hover {
   color: #FFD459;
   background-color: #B2902C;
 }
+nav > .contained > .container > a.x-icon, i.fa-close {
+  float: right;
+  color: #B2902C;
+  margin: 20px 30px 0 0;
+  padding: 5px;
+  background-color: #FFD459;
+  display: none;
+}
+nav > .contained > .container > a.x-icon, i.fa-close:hover {
+  color: #FFD459;
+  background-color: #B2902C;
+}
 @media (min-width: 768px) {
   img.logo-png {
     height: 125px;
     padding-top: 0;
     float: left;
-    display: block;
+    /*display: block;*/
+    display: none;
     position: absolute;
   }
   .mobile-logo {
@@ -128,6 +141,47 @@ nav > .contained > .container > a.hamburger-icon, i.fa-bars:hover {
   }
   .hero .headline a.btn {
      display: none;
+  }
+}
+.sub-nav {
+  background-color: #FFD459;
+  color: #B2902C;
+  z-index: 9;
+  position: absolute;
+  width: 100%;
+}
+.sub-nav > ul {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  float: right;
+}
+.sub-nav > ul > li {
+  display: block;
+}
+.sub-nav > ul > li > a {
+  font-family: 'Montserrat', Arial, sans-serif;
+  text-decoration: none;
+  color: #B2902C;
+  font-weight: 400;
+  font-size: 16px;
+}
+.sub-nav > ul > li > a:hover {
+  font-size: 20px;
+}
+.sub-nav > .ruled-line {
+  height: 5px;
+  width: 100%;
+  background: #FFD459;
+  padding-top: 50px;
+}
+@media (max-width: 768px){
+
+}
+/*not sure if this is necessary?*/
+@media (min-width: 992px){
+  .sub-nav {
+    display: none;
   }
 }
 
