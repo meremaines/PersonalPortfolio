@@ -133,6 +133,27 @@ p {
   position: relative;
   padding-bottom: 150px;
 }
+@media (max-width: 767px) {
+  .hero {
+    background-position: -500px -255px;
+    background-size: auto 150%;
+  }
+}
+@media (max-width: 518px) {
+  .hero {
+    background: #78b7da;
+    padding-bottom: 0;
+  }
+  .container.headline {
+    padding: 120px 0 60px 0;
+  }
+  .container.headline > a.btn {
+    display: none;
+  }
+  .work-headline > h1 {
+    font-size: 26pt;
+  }
+}
 /*section.hero:after {
   content: "";
   background: url("../images/hero_img.jpg") no-repeat;
@@ -172,6 +193,7 @@ section.hero::before{
 }
 .headline > h2 > .htown {
   display: block;
+  padding-top: 5px;
 }
 @media (max-width: 518px) {
   .headline > h1 {

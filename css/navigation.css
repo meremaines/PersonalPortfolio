@@ -72,15 +72,14 @@ nav > .contained > .container > a.hamburger-icon, i.fa-bars:hover {
   color: #FFD459;
   background-color: #B2902C;
 }
-nav > .contained > .container > a.x-icon, i.fa-close {
+.sub-nav > a.x-icon > i.fa-close {
   float: right;
   color: #B2902C;
-  margin: 20px 30px 0 0;
+  margin: 20px 30px 30px 0;
   padding: 5px;
   background-color: #FFD459;
-  display: none;
 }
-nav > .contained > .container > a.x-icon, i.fa-close:hover {
+.sub-nav > a.x-icon > i.fa-close:hover {
   color: #FFD459;
   background-color: #B2902C;
 }
@@ -89,8 +88,7 @@ nav > .contained > .container > a.x-icon, i.fa-close:hover {
     height: 125px;
     padding-top: 0;
     float: left;
-    /*display: block;*/
-    display: none;
+    display: block;
     position: absolute;
   }
   .mobile-logo {
@@ -139,25 +137,34 @@ nav > .contained > .container > a.x-icon, i.fa-close:hover {
   a.hamburger-icon, i.fa-bars {
      display: none;
   }
-  .hero .headline a.btn {
-     display: none;
-  }
 }
 .sub-nav {
   background-color: #FFD459;
   color: #B2902C;
-  z-index: 9;
+  z-index: 20;
   position: absolute;
   width: 100%;
+  min-height: 630px;
+  float: right;
+  display: none;
 }
 .sub-nav > ul {
   display: block;
-  width: 100%;
-  margin: 0 auto;
-  float: right;
+  width: auto;
+  padding: 0 0 100px 0;
 }
 .sub-nav > ul > li {
   display: block;
+  width: 100%;
+  float: right;
+  text-align: center;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #B2902C;
+}
+.sub-nav > ul > li.about-nav {
+  border-top: 1px solid #B2902C;
+  padding-top: 30px;
 }
 .sub-nav > ul > li > a {
   font-family: 'Montserrat', Arial, sans-serif;
@@ -166,19 +173,12 @@ nav > .contained > .container > a.x-icon, i.fa-close:hover {
   font-weight: 400;
   font-size: 16px;
 }
-.sub-nav > ul > li > a:hover {
-  font-size: 20px;
-}
-.sub-nav > .ruled-line {
-  height: 5px;
-  width: 100%;
-  background: #FFD459;
-  padding-top: 50px;
-}
 @media (max-width: 768px){
-
+  .sub-nav {
+    min-height: 720px;
+  }
 }
-/*not sure if this is necessary?*/
+/*not sure if this is necessary, or even correct?*/
 @media (min-width: 992px){
   .sub-nav {
     display: none;
