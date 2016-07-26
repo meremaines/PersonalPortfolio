@@ -251,7 +251,7 @@ h2 {
   margin-bottom: 25px;
   width: 32%;
   position: relative;
-  padding: 40px 0 60px 0; 
+  padding: 40px 0 60px 0;
 }
 .side-call {
   float: left;
@@ -266,7 +266,7 @@ h2 {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   color: #4a4a4a;
   text-align: center;
-  margin: 0 auto;  
+  margin: 0 auto;
   font-size: 16px;
   font-weight: 400;
   padding-top: 120px;
@@ -277,7 +277,7 @@ h2 {
   background: #FFD459;
 }
 /*.work-headline > h1 {
-  padding: 40px 0 25px 0; 
+  padding: 40px 0 25px 0;
 }*/
 .work-grid {
   padding: 25px 0 40px 0;
@@ -307,7 +307,7 @@ h2 {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   color: #B2902C;
   text-align: center;
-  margin: 0 auto;  
+  margin: 0 auto;
   font-size: 16px;
   font-weight: 400;
   padding-top: 20px;
@@ -587,6 +587,7 @@ a.btn-library:hover {
 div #LA:hover > .Hover /*#NY:hover .Hover_NY, #WC:hover .Hover_WC, #BJ:hover .Hover_BJ, #NJ:hover .Hover_NJ, #TX:hover .Hover_TX, #HT:hover .Hover_HT, #ZM:hover .Hover_ZM, #TBD:hover .Hover_TBD*/ {
   /*display: block;*/
 }
+
 /*RESUME*/
 .resume h4 {
   margin: 0 0 10px 0;
