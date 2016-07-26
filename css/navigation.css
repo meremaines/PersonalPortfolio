@@ -1,11 +1,11 @@
 /*at mobile first width*/
-.top-nav {
+/*.top-nav {
   z-index: 10;
   color: #FFD459;
   width: 100%;
   padding-bottom: 150px;
   position: absolute;
-}
+}*/
 .navigation-items > ul {
   list-style: none;
   width: 100%;
@@ -20,8 +20,8 @@
 }
 .navigation-items > ul > li > a.btn, .email-me {
   width: 100%;
-  /*margin: 0 2%;
-  float: left;*/
+  margin: 0 2%;
+  float: left;
 }
 .navigation-items > ul > li > a {
   text-decoration: none;
@@ -44,7 +44,7 @@ img.logo-png {
 .mobile-logo > a {
   text-decoration: none;
 }
-.mobile-logo > a > h5 {
+/*.mobile-logo > a > h5 {
   color: #FFD459;
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   font-weight: 400;
@@ -93,10 +93,14 @@ nav > .contained > .container > a.hamburger-icon, i.fa-bars:hover {
   }
   .mobile-logo {
     display: none;
-  } 
+  }
+<<<<<<< HEAD
+}*/
+=======
 }
+>>>>>>> 0654beb72f208d2e47d99fa96f1ec2d03578e22c
 @media (min-width: 992px) {
-  .site-logo {
+  /*.site-logo {
      width: 46%;
   }
   img.logo-png {
@@ -107,12 +111,11 @@ nav > .contained > .container > a.hamburger-icon, i.fa-bars:hover {
   }
   .mobile-logo {
     display: none;
-  }
+  }*/
   .navigation-items {
-     /*width: 46%;*/
      float: right;
   }
-  .navigation-items > ul {
+  /*.navigation-items > ul {
      display: block;
      margin: 15px 30px 0 0;
   }
@@ -133,12 +136,12 @@ nav > .contained > .container > a.hamburger-icon, i.fa-bars:hover {
      background-color: #B2902C;
      border-bottom: 3px solid #B2902C;
      color: #FFD459;
-  }
-  a.hamburger-icon, i.fa-bars {
+  }*/
+  /*a.hamburger-icon, i.fa-bars {
      display: none;
-  }
+  }*/
 }
-.sub-nav {
+/*.sub-nav {
   background-color: #FFD459;
   color: #B2902C;
   z-index: 20;
@@ -165,25 +168,25 @@ nav > .contained > .container > a.hamburger-icon, i.fa-bars:hover {
 .sub-nav > ul > li.about-nav {
   border-top: 1px solid #B2902C;
   padding-top: 30px;
-}
-.sub-nav > ul > li > a {
+}*/
+/*.sub-nav > ul > li > a {
   font-family: 'Montserrat', Arial, sans-serif;
   text-decoration: none;
   color: #B2902C;
   font-weight: 400;
   font-size: 16px;
-}
-@media (max-width: 768px){
+}*/
+/*@media (max-width: 768px){
   .sub-nav {
     min-height: 720px;
   }
-}
+}*/
 /*not sure if this is necessary, or even correct?*/
-@media (min-width: 992px){
+/*@media (min-width: 992px){
   .sub-nav {
     display: none;
   }
-}
+}*/
 
 /*Footer*/
 footer {
@@ -241,3 +244,60 @@ footer > .ruled-line {
   color: #B2902C;
   text-decoration: none;
 }*/
+
+/*RESUME*/
+  .resume h4 {
+    margin: 0 0 10px 0;
+  }
+  .resume h5 {
+    margin: 0;
+  }
+  .experience > h3, .skills > h3, .education > h3, .references > h3 {
+    font-family: 'Montserrat', Arial, sans-serif;
+    color: #B2902C;
+    font-size: 26px;
+    font-weight: 400;
+  }
+  .experience h4, .education h4, .references h4, .references h4 > .bold > a {
+    font-family: 'Montserrat', Arial, sans-serif;
+    color: #4a4a4a;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .references h4 > .bold > a {
+    text-decoration: none;
+  }
+  .references h4 > .bold > a:hover {
+    color: #B2902C;
+  }
+  .bold {
+    font-weight: 700;
+    font-size: 20px;
+    display: block;
+  }
+  .experience h5, .education h5, .references h5 {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #4a4a4a;
+  }
+  .resume-hero > p, .experience p, .skills > ul > li {
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.4em;
+    color: #9b9b9b;
+  }
+  .experience {
+    width: 64%;
+    margin: 0 2% 0 0;
+    float: left;
+  }
+  .skills, .education, .references {
+    width: 32%;
+    margin: 0 0 0 2%;
+    float: left;
+  }
+  .edu-bloc, .edu-tech, .job, .name {
+    padding-bottom: 30px;
+  }
