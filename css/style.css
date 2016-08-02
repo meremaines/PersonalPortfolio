@@ -227,7 +227,7 @@ h2 {
   background-color: #B2902C;
   border-bottom: 3px solid #B2902C;
 }
-.hero a.btn, .headline.work a.btn {
+.hero a.btn, .headline.work a.btn, .resume-hero a.btn {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size:12px;
@@ -239,7 +239,7 @@ h2 {
   position: relative;
   width: 25%;
 }
-.hero a.btn:hover, .headline.work a.btn:hover {
+.hero a.btn:hover, .headline.work a.btn:hover, .resume-hero a.btn:hover {
   color: #FFD459;
 }
 .headline.work a.btn, .headline.work a.btn:hover {
@@ -588,13 +588,25 @@ div #LA:hover > .Hover /*#NY:hover .Hover_NY, #WC:hover .Hover_WC, #BJ:hover .Ho
   /*display: block;*/
 }
 /*RESUME*/
+.resume-hero {
+  padding-top: 130px;
+  border-bottom: 1px solid #B2902C;
+}
+.resume-hero > h1 {
+  padding-top: 0;
+}
+.resume-hero > h2 {
+  color: #B2902C;
+  text-shadow: none;
+  padding: 0 0 60px 0;
+}
 .resume h4 {
   margin: 0 0 10px 0;
 }
 .resume h5 {
   margin: 0;
 }
-.experience > h3, .skills > h3, .education > h3, .references > h3 {
+.experience > h3, .skills > h3, .education > h3, .interests > h3, .references > h3 {
   font-family: 'Montserrat', Arial, sans-serif;
   color: #B2902C;
   font-size: 26px;
@@ -623,7 +635,7 @@ div #LA:hover > .Hover /*#NY:hover .Hover_NY, #WC:hover .Hover_WC, #BJ:hover .Ho
   font-weight: 400;
   color: #4a4a4a;
 }
-.resume-hero > p, .experience p, .skills > ul > li {
+.resume-hero > p, .experience p, .skills > ul > li, .interests > ul > li {
   font-family: 'Roboto', Arial, sans-serif;
   font-weight: 400;
   font-size: 1em;
@@ -635,7 +647,7 @@ div #LA:hover > .Hover /*#NY:hover .Hover_NY, #WC:hover .Hover_WC, #BJ:hover .Ho
   margin: 0 2% 0 0;
   float: left;
 }
-.skills, .education, .references {
+.skills, .education, .interests, .references {
   width: 32%;
   margin: 0 0 0 2%;
   float: left;
