@@ -163,7 +163,7 @@ p {
   position: absolute;
   z-index: 1;
 }*/
-section.hero::before{
+section.hero::before, #resume.hero::before {
  position: absolute;
  content:" ";
  top:0;
@@ -593,10 +593,10 @@ div #LA:hover > .Hover /*#NY:hover .Hover_NY, #WC:hover .Hover_WC, #BJ:hover .Ho
 /*RESUME*/
 #resume.hero {
   background: #a3cfca url("../images/behave_conference.jpg") no-repeat;
-  background-position: -125px -100px; /*horizontal, vertical*/
-  background-size: 100%;
+  background-position: -325px -100px; /*horizontal, vertical*/
+  background-size: 130%;
   display: block;
-  width: 110%;
+  width: 100%;
   padding: 0;
   height: 70vh;
   border-bottom: 1px solid #B2902C;
