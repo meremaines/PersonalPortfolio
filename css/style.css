@@ -514,7 +514,7 @@ a.btn-library:hover {
 .precedent, .antecedent > h4 {
   text-align: center;
 }
-.image-before, .image-after {
+.image-before > img, .image-after > img {
   border: 1px solid #9b9b9b;
 }
 .left-call {
@@ -538,6 +538,9 @@ a.btn-library:hover {
   border: 1px solid #9b9b9b;
   max-height: 200px;
   overflow: hidden;
+}
+.branding img, .design-issues img {
+  border: 1px solid #9b9b9b;
 }
 /*CTA Section*/
 .CTA {
@@ -591,6 +594,49 @@ a.btn-library:hover {
 
 div #LA:hover > .Hover /*#NY:hover .Hover_NY, #WC:hover .Hover_WC, #BJ:hover .Hover_BJ, #NJ:hover .Hover_NJ, #TX:hover .Hover_TX, #HT:hover .Hover_HT, #ZM:hover .Hover_ZM, #TBD:hover .Hover_TBD*/ {
   /*display: block;*/
+}
+
+/*Case Study Media Queries*/
+@media (max-width: 500px) {
+  #library > .container > .hero-text {
+    margin: 0 auto;
+    width: 96%;
+  }
+  #library.hero {
+    background-position: 0 0;
+    background-size: cover;
+  }
+  .study .one-third.left, .study .two-thirds, .study .one-half, .study .one-third.left-call, .user-stories.one-third.mid-call, .user-flows.one-third.right-call /*.branding, .design-issues*/ {
+    width: 100%;
+    margin: 0;
+  }
+  .study .left {
+    margin-right: 0;
+  }
+  .study .image-before, .study .image-after {
+    width: 100%;
+    margin: 0 auto;
+    float: left;
+    padding-bottom: 20px;
+  }
+  .requirements .first-li {
+    padding-bottom: 32px;
+  }
+  .comp-analysis-imgs > .one-half > img {
+    max-height: 500px;
+  }
+  .user-research li {
+    padding-bottom: 32px;
+  }
+  .comp-analysis-imgs.two-thirds.right, .personas.one-third.left-call, .user-stories.one-third.mid-call, .user-flows.one-third.right-call {
+    margin-top: 50px;
+  }
+  .user-flows.one-third.right-call {
+    margin-bottom: 50px;
+  }
+  .branding img, .design-issues img {
+    margin-bottom: 20px;
+  }
 }
 /*RESUME*/
 #resume.hero {
