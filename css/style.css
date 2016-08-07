@@ -525,6 +525,9 @@ a.btn-library:hover {
   margin: 0 2%;
   float: left;
 }
+.precedent > .mid-call, .antecedent > .mid-call {
+  margin: 0 1.65%;
+}
 .right-call {
   margin: 0;
   float: right;
