@@ -415,7 +415,7 @@ ul.library-text > li { /*need to adjust this*/
 }
 #library.hero {
   background: #a3cfca url("../images/libraryhero.jpg") no-repeat;
-  background-position: -150px -265px; /*horizontal, vertical*/
+  background-position: -225px -500px; /*horizontal, vertical*/
   background-size: 150%;
   /*opacity: 0.5;*/
   display: block;
@@ -423,10 +423,9 @@ ul.library-text > li { /*need to adjust this*/
   padding: 0;
   /*height: 90vh;*/
 }
-.hero-text {
-  margin:  0px, 0px, 0px, 0px;
+#library > .container > .hero-text {
   width: 400px;
-  padding-bottom: 50px;
+  padding: 125px 0 50px 0;
  }
 .btn-library {
   padding: 10px;
