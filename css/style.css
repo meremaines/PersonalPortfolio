@@ -444,6 +444,8 @@ a.btn-library {
   color: #ffffff;
   text-decoration: none;
   text-align: center;
+  display: inline-block;
+  margin: 20px 0 50px 0;
 }
 a.btn-library:hover {
   color: #a3cfca;
@@ -526,7 +528,7 @@ a.btn-library:hover {
   float: left;
 }
 .precedent > .mid-call, .antecedent > .mid-call {
-  margin: 0 1.65%;
+  margin: 0 2%;
 }
 .right-call {
   margin: 0;
@@ -541,6 +543,16 @@ a.btn-library:hover {
 }
 .branding img, .design-issues img {
   border: 1px solid #9b9b9b;
+  margin-bottom: 20px;
+}
+.survey {
+  margin-bottom: 50px;
+}
+.survey-imgs.two-thirds.right {
+  overflow: hidden;
+}
+.survey-imgs.two-thirds.right img {
+  width: 180%;
 }
 /*CTA Section*/
 .CTA {
@@ -628,15 +640,44 @@ div #LA:hover > .Hover /*#NY:hover .Hover_NY, #WC:hover .Hover_WC, #BJ:hover .Ho
   .user-research li {
     padding-bottom: 32px;
   }
-  .comp-analysis-imgs.two-thirds.right, .personas.one-third.left-call, .user-stories.one-third.mid-call, .user-flows.one-third.right-call {
-    margin-top: 50px;
+}
+@media (max-width: 768px) {
+  #library.hero {
+    background-position: -120px 0;
+    background-size: cover;
   }
-  .user-flows.one-third.right-call {
-    margin-bottom: 50px;
+  .the-problem, .survey,  {
+    width: 96%;
+    margin: 0 2%;
   }
-  .branding img, .design-issues img {
-    margin-bottom: 20px;
+  .the-problem > .one-third, .study .two-thirds, .user-research .one-third, .branding .one-third, .design-issues .one-third {
+    width: 100%;
+    margin: 0;
   }
+  .study a.btn-library {
+    display: inline-block;
+  }
+  .CTA-btn a.btn-library {
+    display: inline-block;
+  }
+  .comp-analysis-imgs > .one-half {
+    width: 46%;
+  }
+  .comp-analysis-imgs > .one-half.left {
+    margin: 0 2% 0 0;
+  }
+  .comp-analysis-imgs > .one-half.right {
+    margin: 0 0 0 2%;
+  }
+  .comp-analysis-imgs > .one-half img {
+    max-height: 300px;
+  }
+}
+/*@media (max-width: 992px) {
+  #library.hero {
+    background-position: -300px -300px;
+    background-size: 180%;
+  }*/
 }
 /*RESUME*/
 #resume.hero {
