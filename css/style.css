@@ -513,11 +513,11 @@ a.btn-library:hover {
   border-bottom: 1px solid #9b9b9b;
   padding: 2em 0;
 }
+.precedent, .antecedent {
+  background-color: #f5f5f5;
+}
 .precedent, .antecedent > h4 {
   text-align: center;
-}
-.image-before > img, .image-after > img {
-  border: 1px solid #9b9b9b;
 }
 .left-call {
   margin: 0;
@@ -537,12 +537,10 @@ a.btn-library:hover {
 /*The Problem*/
 .comp-analysis-imgs > .one-half > img {
   margin: 0 0 10px 0;
-  border: 1px solid #9b9b9b;
   max-height: 200px;
   overflow: hidden;
 }
-.branding img, .design-issues img {
-  border: 1px solid #9b9b9b;
+.branding img, .design-issues img {  
   margin-bottom: 20px;
 }
 .survey {
