@@ -612,6 +612,10 @@ div #LA:hover > .Hover /*#NY:hover .Hover_NY, #WC:hover .Hover_WC, #BJ:hover .Ho
     margin: 0 auto;
     width: 96%;
   }
+  .btn-library, .btn-library:hover {
+    width: 100%;
+    padding: 20px 0px;
+  }
   .study .one-third.left, .study .two-thirds, .study .one-half, .study .one-third.left-call, .user-stories.one-third.mid-call, .user-flows.one-third.right-call /*.branding, .design-issues*/ {
     width: 100%;
     margin: 0;
@@ -646,9 +650,6 @@ div #LA:hover > .Hover /*#NY:hover .Hover_NY, #WC:hover .Hover_WC, #BJ:hover .Ho
   }
 }
 @media (max-width: 768px) {
-  #library.hero {
-    
-  }
   .the-problem, .survey,  {
     width: 96%;
     margin: 0 2%;
