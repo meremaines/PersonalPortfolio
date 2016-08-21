@@ -62,7 +62,7 @@ p {
   min-height: 1px;
   /*margin: 0 2% 20px;*/
 }
-.precedent > .one-third, .antecedent > .one-third, .personas, .user-stories, .user-flows {
+.precedent > .one-third, .antecedent > .one-third {
   width: 32%;
 }
 .two-thirds {
@@ -473,7 +473,7 @@ a.btn-library:hover {
 .case-study-nav > nav > ul > li > a:hover {
   color: #4AA298;
 }
-.one-third > p {
+.one-third > p, .one-half > p {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-size:1em;
@@ -488,7 +488,7 @@ a.btn-library:hover {
   text-align: left;
   width: 100%;
 }
-.one-third > h4, .left > h4, .right > h4 {
+.one-third > h4, .left > h4, .right > h4, .one-half > h4 {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-size: 18px;
@@ -648,7 +648,7 @@ div #LA:hover > .Hover /*#NY:hover .Hover_NY, #WC:hover .Hover_WC, #BJ:hover .Ho
     width: 96%;
     margin: 0 2%;
   }
-  .the-problem > .one-third, .study .two-thirds, .user-research .one-third, .branding .one-third, .design-issues .one-third {
+  .the-problem > .one-third, .study .two-thirds, .user-research .one-third, .user-research .one-half, .branding .one-third, .design-issues .one-third {
     width: 100%;
     margin: 0;
   }
