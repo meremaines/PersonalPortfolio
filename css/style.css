@@ -552,6 +552,9 @@ a.btn-library:hover {
 .survey-imgs.two-thirds.right img {
   width: 180%;
 }
+.design-issues h5 {
+  padding-bottom: 10px;
+}
 /*CTA Section*/
 .CTA {
   width: 100%;
