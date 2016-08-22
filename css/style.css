@@ -406,7 +406,7 @@ p.sub-head {
   text-align: left;
   text-shadow: none;
 }
-ul.library-text > li { /*need to adjust this*/
+ul.casestudy-text > li { /*need to adjust this*/
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size:14px;
@@ -427,17 +427,17 @@ ul.library-text > li { /*need to adjust this*/
   width: 400px;
   padding: 125px 0 50px 0;
  }
-.btn-library {
+.btn-casestudy {
   padding: 10px;
   background-color: #a3cfca;
   border-bottom: 3px solid #4AA298;
 }
-.btn-library:hover {
+.btn-casestudy:hover {
   padding: 10px;
   background-color: #4AA298;
   border-bottom: 3px solid #4AA298;
 }
-a.btn-library {
+a.btn-casestudy {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size:12px;
@@ -447,7 +447,7 @@ a.btn-library {
   display: inline-block;
   margin: 20px 0 50px 0;
 }
-a.btn-library:hover {
+a.btn-casestudy:hover {
   color: #a3cfca;
 }
 .case-study-nav {
@@ -561,7 +561,7 @@ a.btn-library:hover {
   background: #a3cfca;
   padding: 5em 0;
 }
-.library-text > h1 {
+.casestudy-text > h1 {
   color: #ffffff;
   text-align: center;
   margin: 0 auto;
@@ -573,13 +573,13 @@ a.btn-library:hover {
   margin: 20px auto 0;
   text-align: center;
 }
-.CTA-btn > a.btn-library {
+.CTA-btn > a.btn-casestudy {
   color: #a3cfca;
   background: #ffffff;
   border: none;
   text-align: center;
 }
-.CTA-btn> a.btn-library:hover {
+.CTA-btn> a.btn-casestudy:hover {
   color: #a3cfca;
   background: #4AA298;
   border: none;
@@ -615,7 +615,7 @@ div #LA:hover > .Hover /*#NY:hover .Hover_NY, #WC:hover .Hover_WC, #BJ:hover .Ho
     margin: 0 auto;
     width: 96%;
   }
-  .btn-library, .btn-library:hover {
+  .btn-casestudy, .btn-casestudy:hover {
     width: 100%;
     padding: 20px 0px;
   }
@@ -661,11 +661,11 @@ div #LA:hover > .Hover /*#NY:hover .Hover_NY, #WC:hover .Hover_WC, #BJ:hover .Ho
     width: 100%;
     margin: 0;
   }
-  .study a.btn-library {
+  .study a.btn-casestudy {
     display: inline-block;
   }
   /*what happened here???*/
-  .CTA-btn a.btn-library {
+  .CTA-btn a.btn-casestudy {
     display: inline-block;
   }
   .comp-analysis-imgs > .one-half {
