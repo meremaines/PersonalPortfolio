@@ -548,9 +548,13 @@ a.btn-casestudy:hover {
   float: right;
 }
 /*The Problem*/
-.comp-analysis-imgs > .one-half > img {
+.comp-analysis-imgs > .one-half {
   margin: 0 0 10px 0;
   max-height: 200px;
+  overflow: hidden;
+}
+.comp-analysis-imgs > .pinterest {
+  max-height: 400px;
   overflow: hidden;
 }
 .branding img, .design-issues img {  
@@ -568,11 +572,11 @@ a.btn-casestudy:hover {
 .design-issues h5 {
   padding-bottom: 10px;
 }
-.one-third.left > p > a {
+.one-half.right > p > a, .one-third.left > p > a {
   color: #a3cfca;
   text-decoration: none;
 }
-.one-third.left > p > a:hover {
+.one-half.right > p > a:hover, .one-third.left > p > a:hover {
   color: #4AA298;
 }
 /*CTA Section*/
