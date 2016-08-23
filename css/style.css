@@ -397,6 +397,9 @@ h2 {
   line-height: 1.5;
   color: #9b9b9b;
 }
+#enveloop .hero-text > p {
+  color: #ffffff;
+}
 p.sub-head {
   font-family: "Arapey", serif;
   font-weight: 400;
@@ -423,7 +426,17 @@ ul.casestudy-text > li { /*need to adjust this*/
   padding: 0;
   /*height: 90vh;*/
 }
-#library > .container > .hero-text {
+#enveloop.hero {
+  background: #a3cfca url("../images/enveloop-hero.jpg") no-repeat;
+  background-position: -225px -500px; /*horizontal, vertical*/
+  background-size: 150%;
+  /*opacity: 0.5;*/
+  display: block;
+  width: 100%;
+  padding: 0;
+  /*height: 90vh;*/
+}
+#library > .container > .hero-text, #enveloop > .container > .hero-text {
   width: 400px;
   padding: 125px 0 50px 0;
  }
@@ -473,7 +486,7 @@ a.btn-casestudy:hover {
 .case-study-nav > nav > ul > li > a:hover {
   color: #4AA298;
 }
-.one-third > p, .one-half > p {
+.one-third > p, .one-half > p, .two-thirds > p {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-size:1em;
@@ -554,6 +567,13 @@ a.btn-casestudy:hover {
 }
 .design-issues h5 {
   padding-bottom: 10px;
+}
+.one-third.left > p > a {
+  color: #a3cfca;
+  text-decoration: none;
+}
+.one-third.left > p > a:hover {
+  color: #4AA298;
 }
 /*CTA Section*/
 .CTA {
@@ -651,6 +671,9 @@ div #LA:hover > .Hover /*#NY:hover .Hover_NY, #WC:hover .Hover_WC, #BJ:hover .Ho
   #library.hero {
     background: #f5f5f5;
   }
+  #enveloop.hero {
+    background: #f5f5f5;
+  }
 }
 @media (max-width: 768px) {
   .the-problem, .survey,  {
@@ -686,15 +709,28 @@ div #LA:hover > .Hover /*#NY:hover .Hover_NY, #WC:hover .Hover_WC, #BJ:hover .Ho
     background-position: -400px -350px;
     background-size: 230%;
   }
+  #enveloop.hero {
+    background-position: -400px -350px;
+    background-size: 230%;
+  }
 }
 @media (min-width: 1000px) {
   #library.hero {
     background-position: -500px -500px;
     background-size: 200%;
   }
+  #enveloop.hero {
+    background-position: -500px -500px;
+    background-size: 200%;
+  }
+
 }
 @media (min-width: 1200px) {
   #library.hero {
+    background-position: -225px -350px;
+    background-size: 150%;
+  }
+  #enveloop.hero {
     background-position: -225px -350px;
     background-size: 150%;
   }
