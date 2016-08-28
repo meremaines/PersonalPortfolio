@@ -18,18 +18,16 @@
 <body>
   <header>
 <!-- Navigation & Hero -->
-    <div id="library" class="hero">
+    <div id="library">
       <div class="container">
         <nav>
           <div class="top-nav">
             <a href="index.html"><img src="images/PersonalLogo.png" class="logo-png"></a>
             <div class="mobile-logo">
-              <a href="index.html"><h5>MEREDITH</h5>
-              <h6>MAINES</h6></a>
+              <a href="index.html"><h5>MEREDITH <span class="last-name">MAINES</span></h5></a>
             </div>
             <div class="navigation-items">
               <ul>
-                <li><a href="work.html">WORK</a></li>
                 <li><a href="about.html">ABOUT</a></li>
                 <li><a href="resume.html">RESUME</a></li>
                 <li><a href="email.html" class="btn email-me">EMAIL ME!</a></li>
@@ -38,7 +36,22 @@
               <a href="#" class="hamburger-icon"><i class="fa fa-bars"></i></a>
             </div>
           </div>
-        </nav>          
+        </nav>
+      </div>  
+        <nav>
+          <div class="sub-nav">
+            <a href="#" class="x-icon"><i class="fa fa-close"></i></a>
+            <ul>
+              <li class="about-nav"><a href="about.html">ABOUT</a></li>
+              <li><a href="resume.html">RESUME</a></li>
+              <li><a href="#">EMAIL ME!</a></li>
+            </ul>
+          </div>
+        </nav>
+    </div>     
+       <!--  Hero  --> 
+    <section class="hero">
+      <div class="container">      
         <div class="hero-text">
           <h1>case study: shreve memorial library site redesign</h1>
           <h2>MOVING PUBLIC LIBRARIES CLOSER TO ONE-CLICK SHOPPING</h2>
@@ -48,7 +61,7 @@
           <a href="https://invis.io/PC62QA63G" target="_blank" class="btn-casestudy">VIEW PROTOTYPE</a>
         </div>
       </div>
-    </div>
+    </section>
   </header>
  <!-- content -->
   <section class="study">
@@ -324,14 +337,28 @@
     </div> <!-- CTA -->
   </section> <!-- study -->
  <!-- Footer -->
- <footer>
+<footer>
    <div class="full-width ruled-line"></div>
    <div class="container"> 
     <div class="footer-text-block">
-      <p class="copyright">&copy; 2016 MEREDITH MAINES-ALL RIGHTS RESERVED</p>
-      <p><a href="mailto:meredithmaines@gmail.com" class="email-address">meredithmaines@gmail.com</a></p>
+      <p class="copyright">&copy; 2016 MEREDITH MAINES<span>&mdash;ALL RIGHTS RESERVED</span></p>
+      <div class="footer-icons">
+        <a href="mailto:meredithmaines@gmail.com" class="email-icon"><i class="fa fa-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/meredithmaines"><i class="fa fa-linkedin"></i></a>
+      </div>
     </div>  
    </div>
  </footer>
+
+<script src="js/jquery-3.0.0.min.js"></script>
+ <script>
+    $(".fa-bars").on("click", function() {
+      $(".sub-nav").toggle();
+   });
+    $(".fa-close").on("click", function() {
+      $(".sub-nav").toggle();
+    }); 
+ </script>
+
 </body>
 </html>
