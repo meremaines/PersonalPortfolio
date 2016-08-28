@@ -193,8 +193,8 @@ i.fa.fa-angle-double-down {
 .Hover > p {
   font-family: "Arapey", serif;
   font-weight: 400;
-  font-size:16px;
-  line-height: 19px;
+  font-size:1.2em;
+  line-height:1.4em;
   padding: 0 10px 0 10px;
 }
 /*.toptype {
@@ -257,6 +257,10 @@ i.fa.fa-angle-double-down {
   }
 }
 @media (max-width: 695px) {
+  #about.hero {
+    background-size: 200%;
+    height: 50vh;
+  }
 /*  .mid-call {
     margin: 0;
   }
