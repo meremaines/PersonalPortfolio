@@ -248,6 +248,13 @@ h2 {
 .headline.work a.btn, .headline.work a.btn:hover {
   width: 10%;
 }
+.top-title {
+  z-index: 10;
+  position: absolute;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
 .home-cell {
   height: 200px;
   overflow: hidden;
@@ -265,7 +272,7 @@ h2 {
   height: 200px;
   overflow: hidden;
 }
-.toptype > h5 {
+.toptype > h5, .top-title > h5 {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   color: #4a4a4a;
   text-align: center;
