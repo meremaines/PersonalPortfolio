@@ -248,21 +248,6 @@ h2 {
 .headline.work a.btn, .headline.work a.btn:hover {
   width: 10%;
 }
-.top-title {
-  z-index: 10;
-  position: absolute;
-  margin: 0 auto;
-  width: 100%;
-  text-align: center;
-}
-.home-cell {
-  height: 200px;
-  overflow: hidden;
-  margin-bottom: 25px;
-  width: 32%;
-  position: relative;
-  padding: 40px 0 60px 0; 
-}
 .side-call {
   float: left;
 }
@@ -272,7 +257,7 @@ h2 {
   height: 200px;
   overflow: hidden;
 }
-.toptype > h5, .top-title > h5 {
+.toptype > h5 {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   color: #4a4a4a;
   text-align: center;
@@ -291,6 +276,7 @@ h2 {
 }*/
 .work-grid {
   padding: 25px 0 40px 0;
+  width: 100%;
 }
 .yellow-overlay {
   background-color: rgba(255, 212, 89, .5);
@@ -326,15 +312,6 @@ h2 {
   padding: 0 10px;
   text-align: center;
 }
-#WR:hover > .Hover, #EV:hover > .Hover, #LI:hover > .Hover {
-  visibility:visible;
-  display: block;
-  opacity: 1;
-}
-
-#WR:hover > .toptype, #EV:hover > .toptype, #LI:hover > .toptype {
-  display: none;
-}
 #EV-img {
   width: 100%;
 }
@@ -346,6 +323,82 @@ h2 {
 }
 .featured-work {
   padding-bottom: 60px;
+}
+/*HOME PAGE FEATURED WORK*/
+.top-title {
+  z-index: 10;
+  position: absolute;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+.top-title > h5 {
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  color: #B2902C;
+  text-align: center;
+  margin: 0 auto;  
+  font-size: 24px;
+  font-weight: 400;
+  padding-top: 90px;
+}
+.work-cell .yellow-overlay {
+  background-color: rgba(255, 212, 89, .7);
+  position: inherit;
+}
+.work-blurb {
+  width: 100%;
+  text-align: center;
+}
+.work-cell {
+/*  height: 200px;
+  overflow: hidden;
+  margin-bottom: 25px;*/
+  width: 32%;
+  position: relative;
+}
+.work-img {
+  height: 200px;
+  width: 100%;
+  overflow: hidden;
+}
+.work-cell p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  line-height: 1.2em;
+  color: #9b9b9b;
+}
+.work-cell .btn {
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #B2902C;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  width: 75%;
+  padding: 10px 0;
+}
+.work-cell .btn:hover {
+  color: #FFD459;
+}
+@media (max-width: 768px) {
+  .featured-desktop {
+    display: none;
+  }
+  .featured-mobile {
+    display: block;
+  }
+}
+@media (min-width: 769px) {
+  .featured-mobile {
+    display: none;
+  }
+  .featured-desktop {
+    display: block;
+  }
 }
 /*case study: library*/
 .hero-text > h1 {
