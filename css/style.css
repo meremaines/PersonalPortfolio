@@ -324,7 +324,15 @@ h2 {
 .featured-work {
   padding-bottom: 60px;
 }
+#WR:hover > .Hover, #EV:hover > .Hover, #LI:hover > .Hover {
+  visibility:visible;
+  display: block;
+  opacity: 1;
+}
 
+#WR:hover > .toptype, #EV:hover > .toptype, #LI:hover > .toptype {
+  display: none;
+}
 /*case study: library*/
 .hero-text > h1 {
   font-family: "Arapey", serif;
@@ -749,7 +757,7 @@ div #LA:hover > .Hover /*#NY:hover .Hover_NY, #WC:hover .Hover_WC, #BJ:hover .Ho
   position: absolute;
   width: 100%;
 }
-.work-cell .yellow-overlay {
+.work-cell .yellow-overlay, .home-cell .yellow-overlay {
   background-color: rgba(255, 212, 89, .7);
   position: inherit;
 }
@@ -763,6 +771,11 @@ div #LA:hover > .Hover /*#NY:hover .Hover_NY, #WC:hover .Hover_WC, #BJ:hover .Ho
   margin-bottom: 25px;*/
   width: 32%;
   position: relative;
+}
+.home-cell {
+  width: 32%;
+  position: relative;
+  height: 200px;
 }
 .work-img {
   height: 200px;
@@ -792,7 +805,45 @@ div #LA:hover > .Hover /*#NY:hover .Hover_NY, #WC:hover .Hover_WC, #BJ:hover .Ho
 .work-cell .btn:hover {
   color: #FFD459;
 }
-@media (max-width: 575px) {
+.work-grid .toptype {
+  z-index: 10;
+  position: absolute;
+  width: 100%;
+  padding: 90px 0;
+}
+.work-grid .toptype > h5 {
+  padding: 0px;
+  color: #B2902C;
+  text-align: center;
+  margin: 0 auto;  
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  width: 100%;
+}
+.work-grid .Hover {
+  padding: 0 20px;
+}
+.work-btn {
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #B2902C;
+  background-color: #FFD459;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  width: 75%;
+  padding: 10px 0;
+  border: 3px solid #B2902C;
+}
+.work-btn:hover {
+  color: #FFD459;
+  background-color: #B2902C;
+}
+@media (max-width: 659px) {
   .left-call, .mid-call, .right-call {
     float: left;
   }
