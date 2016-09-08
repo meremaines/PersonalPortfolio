@@ -163,7 +163,7 @@ p {
   position: absolute;
   z-index: 1;
 }*/
-section.hero::before, #resume.hero::before {
+section.hero::before, #resume.hero::before, #contact.hero::before, #confirmation.hero::before {
  position: absolute;
  content:" ";
  top:0;
@@ -948,3 +948,86 @@ div #LA:hover > .Hover /*#NY:hover .Hover_NY, #WC:hover .Hover_WC, #BJ:hover .Ho
 .edu-bloc, .edu-tech, .job, .name {
   padding-bottom: 30px;
 }
+/*CONTACT PAGE*/
+#contact.hero {
+  background: #a3cfca url("../images/coffee-contact.jpg") no-repeat;
+  background-size: cover;
+  display: block;
+  width: 100%;
+  padding: 0;
+  height: 60vh;
+  border-bottom: 1px solid #B2902C;
+ }
+ .contact-hero {
+  padding-top: 200px;
+ }
+ .contact-hero > h1 {
+  padding: 0;
+ }
+ .contact-form p {
+  font-family: "Roboto", Arial, sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  line-height: 1.4;
+  color: #9b9b9b;
+  text-align: center;
+ }
+ .contact-form p > a {
+  color: #B2902C;
+  text-decoration: none;
+ }
+ .contact-form p > a:hover {
+  color: #FFD459;
+ }
+ .contact-form {
+  padding-top: 40px;
+ }
+ #form {
+  padding: 20px 0;
+ }
+ .form-group {
+  margin-bottom: 20px;
+ }
+ input {
+  color: #4a4a4a;
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #B2902C;
+  box-sizing: border-box;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  outline: none;
+  width: 300px;
+ } 
+ .form-group > h5 {
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  color: #4a4a4a;
+  text-align: left;
+  margin: 0 auto;  
+  font-size: 14px;
+  font-weight: 400;
+}
+.btn-contact {
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #B2902C;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+}
+/*Confirm*/
+#confirmation.hero {
+  background: #a3cfca url("../images/confirm-cats.jpg") no-repeat;
+  background-size: cover;
+  display: block;
+  width: 100%;
+  padding: 0;
+  height: 90vh;
+  border-bottom: 1px solid #B2902C;
+ }
