@@ -197,6 +197,15 @@ i.fa.fa-angle-double-down {
   line-height:1.4em;
   padding: 0 10px 0 10px;
 }
+@media (min-width: 696px) and (max-width: 991px) {
+  .Hover > p {
+  font-family: "Arapey", serif;
+  font-weight: 400;
+  font-size:17px;
+  line-height:20px;
+  padding: 0 5px;
+}
+}
 /*.toptype {
   width: 100%;
   height: 100px;
