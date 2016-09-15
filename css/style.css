@@ -902,8 +902,8 @@ div #LA:hover > .Hover /*#NY:hover .Hover_NY, #WC:hover .Hover_WC, #BJ:hover .Ho
   padding-top: 0;
 }
 .resume-hero > h2 {
-  color: #B2902C;
-  text-shadow: none;
+  color: #ffffff;
+  text-shadow: 1px 2px #B2902C;
   padding: 0;
 }
 .resume > .container {
