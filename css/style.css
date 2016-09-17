@@ -1078,9 +1078,20 @@ textarea {
 #confirmation.hero {
   background: #a3cfca url("../images/confirm-cats.jpg") no-repeat;
   background-size: cover;
+  background-position: -400px 0px;
   display: block;
   width: 100%;
   padding: 0;
   height: 90vh;
   border-bottom: 1px solid #B2902C;
+ }
+ @media (min-width: 616px) {
+  #confirmation.hero {
+    background-position: -200px 0px;
+  }
+ }
+ @media (min-width: 816px) {
+  #confirmation.hero {
+    background-position: 0px 0px;
+  }
  }
