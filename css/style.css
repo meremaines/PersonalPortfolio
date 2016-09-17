@@ -990,6 +990,7 @@ div #LA:hover > .Hover /*#NY:hover .Hover_NY, #WC:hover .Hover_WC, #BJ:hover .Ho
   padding: 0;
  }
  .contact-form p {
+  margin: 0 2%;
   font-family: "Roboto", Arial, sans-serif;
   font-weight: 300;
   font-size: 1em;
@@ -1008,7 +1009,7 @@ div #LA:hover > .Hover /*#NY:hover .Hover_NY, #WC:hover .Hover_WC, #BJ:hover .Ho
   padding-top: 40px;
  }
  #form {
-  width: 50%;
+  width: 100%;
   margin: 0 auto;
   padding: 20px 0;
   margin-bottom: 60px;
@@ -1048,6 +1049,26 @@ div #LA:hover > .Hover /*#NY:hover .Hover_NY, #WC:hover .Hover_WC, #BJ:hover .Ho
   display: block;
   margin: 0 auto;
   position: relative;
+}
+@media (min-width: 768px) {
+  .contact-form p {
+    width: 75%;
+    margin: 0 auto;
+  }
+  #form {
+    width: 75%;
+  }
+  .btn-contact {
+    width: 50%;
+  }
+}
+@media (min-width: 992px) {
+  .contact-form p {
+    width: 50%;
+  }
+  #form {
+    width: 50%;
+  }
 }
 /*Confirm*/
 #confirmation.hero {

@@ -72,14 +72,14 @@ nav > .contained > .container > a.hamburger-icon, i.fa-bars:hover {
   color: #FFD459;
   background-color: #B2902C;
 }
-.sub-nav > a.x-icon > i.fa-close {
+.sub-nav a.x-icon > i.fa-close {
   float: right;
   color: #B2902C;
-  margin: 20px 30px 0 0;
+  margin: 20px 0 0 0;
   padding: 5px;
   background-color: #FFD459;
-  position: absolute;
-  right: 15px;
+  position: relative;
+  right: 0;
 }
 .sub-nav > a.x-icon > i.fa-close:hover {
   color: #FFD459;
@@ -176,14 +176,19 @@ nav > .contained > .container > a.hamburger-icon, i.fa-bars:hover {
   margin-bottom: 30px;
   border-bottom: 1px solid #B2902C;
 }
-.sub-nav ul > li.about-nav {
-  border-top: 1px solid #B2902C;
-  padding-top: 30px;
+.sub-nav ul > li.contact-nav {
+  border-bottom: none;
 }
 .sub-nav ul > li > a {
   font-family: 'Montserrat', Arial, sans-serif;
   text-decoration: none;
   color: #B2902C;
+  font-weight: 400;
+  font-size: 16px;
+}
+.sub-nav ul > li > a:hover {
+  color: #ffffff;
+  text-shadow: 1px 2px #B2902C;
   font-weight: 400;
   font-size: 16px;
 }
