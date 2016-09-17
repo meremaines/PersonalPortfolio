@@ -1031,13 +1031,17 @@ div #LA:hover > .Hover /*#NY:hover .Hover_NY, #WC:hover .Hover_WC, #BJ:hover .Ho
   outline: none;
   width: 100%;
  }
- .form-group > h5 {
+ .form-group h5 {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   color: #4a4a4a;
   text-align: left;
   margin: 0 auto;
   font-size: 14px;
   font-weight: 400;
+}
+textarea {
+  border: none;
+  border-bottom: 1px solid #B2902C;
 }
 .btn-contact {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
