@@ -787,6 +787,12 @@ div #LA:hover > .Hover /*#NY:hover .Hover_NY, #WC:hover .Hover_WC, #BJ:hover .Ho
   margin-bottom: 25px;*/
   width: 32%;
   position: relative;
+  border-bottom: 1px solid #B2902C;
+  padding-bottom: 40px;
+}
+.library-cell {
+  border-bottom: none;
+  padding-bottom: none;  
 }
 .home-cell {
   width: 32%;
@@ -871,6 +877,12 @@ div #LA:hover > .Hover /*#NY:hover .Hover_NY, #WC:hover .Hover_WC, #BJ:hover .Ho
   .work-cell {
     margin: 25px 10%;
     width: initial;
+  }
+}
+@media (min-width: 660px) {
+  .work-cell {
+    border-bottom: none;
+    padding-bottom: none;  
   }
 }
 @media (max-width: 768px) {
