@@ -1090,13 +1090,17 @@ textarea {
 .btn-contact {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   color: #B2902C;
   text-decoration: none;
   text-align: center;
   display: block;
   margin: 0 auto;
   position: relative;
+  padding: 20px;
+}
+.btn-contact:hover {
+  padding: 20px;
 }
 @media (min-width: 768px) {
   .contact-form p {
