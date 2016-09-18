@@ -244,7 +244,7 @@ h2 {
 .hero a.btn, .headline.work a.btn, .resume-hero a.btn {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   font-weight: 400;
-  font-size:12px;
+  font-size:14px;
   color: #B2902C;
   text-decoration: none;
   text-align: center;
@@ -448,19 +448,18 @@ ul.casestudy-text > li { /*need to adjust this*/
   padding: 125px 20px 50px 20px;
  }
 .btn-casestudy {
-  padding: 10px;
+  width: 100%;
+  padding: 20px 0;
   background-color: #a3cfca;
   border-bottom: 3px solid #4AA298;
 }
 .btn-casestudy:hover {
-  padding: 10px;
   background-color: #4AA298;
-  border-bottom: 3px solid #4AA298;
 }
 a.btn-casestudy {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   font-weight: 400;
-  font-size:12px;
+  font-size:14px;
   color: #ffffff;
   text-decoration: none;
   text-align: center;
@@ -611,8 +610,9 @@ a.btn-casestudy:hover {
 }
 .CTA-btn {
   display: block;
-  margin: 20px auto 0;
+  margin: 20px auto;
   text-align: center;
+  width: 50%;
 }
 .CTA-btn > a.btn-casestudy {
   color: #a3cfca;
@@ -625,6 +625,16 @@ a.btn-casestudy:hover {
   background: #4AA298;
   border: none;
   text-align: center;
+}
+@media (min-width: 768px) {
+  .CTA-btn {
+    width: 25%;
+  }
+}
+@media (min-width: 992px) {
+  .CTA-btn {
+    width: 15%;
+  }
 }
 /*.cta-sub-nav > ul > li > a {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
@@ -820,7 +830,7 @@ div #LA:hover > .Hover /*#NY:hover .Hover_NY, #WC:hover .Hover_WC, #BJ:hover .Ho
 .work-cell .btn {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   color: #B2902C;
   text-decoration: none;
   text-align: center;
@@ -828,7 +838,7 @@ div #LA:hover > .Hover /*#NY:hover .Hover_NY, #WC:hover .Hover_WC, #BJ:hover .Ho
   margin: 0 auto;
   position: relative;
   width: 75%;
-  padding: 10px 0;
+  padding: 20px 0;
 }
 .work-cell .btn:hover {
   color: #FFD459;
