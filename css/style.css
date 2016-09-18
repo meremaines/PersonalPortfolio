@@ -372,7 +372,7 @@ h2 {
   width: 75%;
 }
 #writing .hero-text > h1, #writing .hero-text > h2 {
-  color: #a3cfca;
+  color: #666;
 }
 .hero-text > h3 {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
@@ -1108,22 +1108,11 @@ textarea {
 /* Writing page*/
 #writing.hero {
   background: #a3cfca url("../images/woman-notebook.jpg") no-repeat;
-  background-size: 200%;
+  background-size: cover;
+  background-position: 0;
   display: block;
   width: 100%;
   padding: 0;
-  height: 60vh;
   border-bottom: 1px solid #B2902C;
  } 
-}
-@media (min-width: 600px) {
-  #writing.hero {
-    background-size: 150%;
-  }
-}
-@media (min-width: 768px) {
-  #writing.hero {
-    background-size: 150%;
-    background-position-y: -75px;
-  } 
 }
