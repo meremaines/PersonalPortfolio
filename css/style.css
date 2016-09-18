@@ -762,14 +762,16 @@ div #LA:hover > .Hover /*#NY:hover .Hover_NY, #WC:hover .Hover_WC, #BJ:hover .Ho
 }
 .top-title > h5 {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
-  color: #B2902C;
+  padding: 76px 0;
+  color: #ffffff;
+  text-shadow: 1px 2px #B2902C;
   text-align: center;
   margin: 0 auto;
   font-size: 24px;
   font-weight: 400;
-  padding-top: 90px;
   position: absolute;
   width: 100%;
+  z-index: 100;
 }
 .work-cell .yellow-overlay, .home-cell .yellow-overlay {
   background-color: rgba(255, 212, 89, .8);
