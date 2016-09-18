@@ -1106,11 +1106,12 @@ textarea {
   border-bottom: 1px solid #B2902C;
  } 
 }
-/*@media (min-width: 600px) {
- #writing.hero {
-
-}*/
-@media (min-width: 800px) {
+@media (min-width: 600px) {
+  #writing.hero {
+    background-size: 150%;
+  }
+}
+@media (min-width: 768px) {
   #writing.hero {
     background-size: 150%;
     background-position-y: -75px;
