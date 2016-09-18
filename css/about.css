@@ -24,8 +24,8 @@
   padding-top: 200px;
 }
 .about-hero > h2 {
-  color: #B2902C;
-  text-shadow: none;
+  color: #ffffff;
+  text-shadow: 1px 2px #B2902C;
   padding: 0;
 }
 .about-hero > h1 {

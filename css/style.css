@@ -443,7 +443,7 @@ ul.casestudy-text > li { /*need to adjust this*/
   padding: 0;
   /*height: 90vh;*/
 }
-#library > .container > .hero-text, #enveloop > .container > .hero-text {
+#library > .container > .hero-text, #enveloop > .container > .hero-text, #writing > .container > .hero-text {
   width: 400px;
   padding: 125px 0 50px 0;
  }
@@ -1095,3 +1095,24 @@ textarea {
     background-position: 0px 0px;
   }
  }
+/* Writing page*/
+#writing.hero {
+  background: #a3cfca url("../images/woman-typing.jpg") no-repeat;
+  background-size: 200%;
+  display: block;
+  width: 100%;
+  padding: 0;
+  height: 60vh;
+  border-bottom: 1px solid #B2902C;
+ } 
+}
+/*@media (min-width: 600px) {
+ #writing.hero {
+
+}*/
+@media (min-width: 800px) {
+  #writing.hero {
+    background-size: 150%;
+    background-position-y: -75px;
+  } 
+}
