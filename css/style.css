@@ -402,22 +402,11 @@ h2 {
 }
 .hero-text > p {
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-size:1.1em;
   line-height: 1.5;
-  color: #9b9b9b;
-}
-#writing .hero-text p {
   color: #ffffff;
 }
-#enveloop .hero-text > p {
-  color: #666;
-}
-/*@media (min-width: 701px) {
-  #enveloop .hero-text > p {
-    color: #ffffff;
-  }
-}*/
 p.sub-head {
   font-family: "Arapey", serif;
   font-weight: 400;
@@ -693,9 +682,6 @@ div #LA:hover > .Hover /*#NY:hover .Hover_NY, #WC:hover .Hover_WC, #BJ:hover .Ho
   #library.hero {
     background: #f5f5f5;
   }
-  #enveloop.hero {
-    background: #f5f5f5;
-  }
 }
 @media (max-width: 768px) {
   .the-problem, .survey,  {
@@ -731,31 +717,30 @@ div #LA:hover > .Hover /*#NY:hover .Hover_NY, #WC:hover .Hover_WC, #BJ:hover .Ho
     background-position: -400px -350px;
     background-size: 230%;
   }
-  #enveloop.hero {
+/*  #enveloop.hero {
     background-position: -400px -350px;
     background-size: 230%;
-  }
+  }*/
 }
 @media (min-width: 1000px) {
   #library.hero {
     background-position: -500px -500px;
     background-size: 200%;
   }
-  #enveloop.hero {
+/*  #enveloop.hero {
     background-position: -500px -500px;
     background-size: 200%;
-  }
-
+  }*/
 }
 @media (min-width: 1200px) {
   #library.hero {
     background-position: -225px -350px;
     background-size: 150%;
   }
-  #enveloop.hero {
+/*  #enveloop.hero {
     background-position: -225px -350px;
     background-size: 150%;
-  }
+  }*/
 }
 /*@media (max-width: 992px) {
   #library.hero {
