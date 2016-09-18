@@ -533,6 +533,16 @@ a.btn-casestudy:hover {
   border-bottom: 1px solid #9b9b9b;
   padding: 2em 0;
 }
+.writing-problem {
+  border-bottom: none;
+}
+.writing-link {
+  color: #a3cfca;
+  text-decoration: none;
+}
+.writing-link:hover {
+  color: #4AA298;
+}
 .precedent, .antecedent {
   background-color: #f5f5f5;
 }
