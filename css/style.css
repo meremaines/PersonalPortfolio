@@ -444,9 +444,23 @@ ul.casestudy-text > li { /*need to adjust this*/
 }
 #library > .container > .hero-text, #enveloop > .container > .hero-text, #writing > .container > .hero-text {
   background-color: rgba(120, 183, 218, 0.7);
-  width: 400px;
   padding: 125px 20px 50px 20px;
  }
+@media (min-width: 551px) {
+  #library > .container > .hero-text, #enveloop > .container > .hero-text, #writing > .container > .hero-text {
+    width: 75%;
+  }
+}
+@media (min-width: 769px) {
+  #library > .container > .hero-text, #enveloop > .container > .hero-text, #writing > .container > .hero-text {
+    width: 50%;
+  }
+}
+@media (min-width: 992px) {
+  #library > .container > .hero-text, #enveloop > .container > .hero-text, #writing > .container > .hero-text {
+    width: 40%;
+  }
+}
 .btn-casestudy {
   width: 100%;
   padding: 20px 0;
