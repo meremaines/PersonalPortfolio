@@ -404,7 +404,7 @@ h2 {
   line-height: 1.5;
   color: #9b9b9b;
 }
-#enveloop .hero-text > p {
+#enveloop .hero-text > p, #writing .hero-text p {
   color: #ffffff;
 }
 p.sub-head {
@@ -774,7 +774,7 @@ div #LA:hover > .Hover /*#NY:hover .Hover_NY, #WC:hover .Hover_WC, #BJ:hover .Ho
   z-index: 100;
 }
 .work-cell .yellow-overlay, .home-cell .yellow-overlay {
-  background-color: rgba(255, 212, 89, .8);
+  background-color: rgba(255, 212, 89, .6);
   position: absolute;
 }
 .work-blurb {
