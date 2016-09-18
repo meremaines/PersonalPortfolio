@@ -353,7 +353,7 @@ h2 {
   font-weight: 400;
   font-size: 36pt;
   line-height: 32pt;
-  color: #a3cfca;
+  color: #4AA298;
   text-align: left;
   text-shadow: none;
   padding: 10px 0 0 0;
@@ -364,12 +364,15 @@ h2 {
   font-weight: 400;
   font-size:1em;
   line-height: 17px;
-  color: #a3cfca;
+  color: #4AA298;
   margin-top: 20px;
   text-shadow: none;
   text-align: left;
   text-transform: uppercase;
   width: 75%;
+}
+#writing .hero-text > h1, #writing .hero-text > h2 {
+  color: #a3cfca;
 }
 .hero-text > h3 {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
@@ -404,9 +407,17 @@ h2 {
   line-height: 1.5;
   color: #9b9b9b;
 }
-#enveloop .hero-text > p, #writing .hero-text p {
+#writing .hero-text p {
   color: #ffffff;
 }
+#enveloop .hero-text > p {
+  color: #666;
+}
+/*@media (min-width: 701px) {
+  #enveloop .hero-text > p {
+    color: #ffffff;
+  }
+}*/
 p.sub-head {
   font-family: "Arapey", serif;
   font-weight: 400;
@@ -434,9 +445,8 @@ ul.casestudy-text > li { /*need to adjust this*/
   /*height: 90vh;*/
 }
 #enveloop.hero {
-  background: #a3cfca url("../images/enveloop-hero.jpg") no-repeat;
-  background-position: -225px -500px; /*horizontal, vertical*/
-  background-size: 150%;
+  background: #a3cfca url("../images/tablet.jpg") no-repeat;
+  background-size: cover;
   /*opacity: 0.5;*/
   display: block;
   width: 100%;
@@ -444,8 +454,9 @@ ul.casestudy-text > li { /*need to adjust this*/
   /*height: 90vh;*/
 }
 #library > .container > .hero-text, #enveloop > .container > .hero-text, #writing > .container > .hero-text {
+  background-color: rgba(120, 183, 218, 0.7);
   width: 400px;
-  padding: 125px 0 50px 0;
+  padding: 125px 20px 50px 20px;
  }
 .btn-casestudy {
   padding: 10px;
@@ -1111,7 +1122,7 @@ textarea {
  }
 /* Writing page*/
 #writing.hero {
-  background: #a3cfca url("../images/woman-typing.jpg") no-repeat;
+  background: #a3cfca url("../images/woman-notebook.jpg") no-repeat;
   background-size: 200%;
   display: block;
   width: 100%;
