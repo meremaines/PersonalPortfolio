@@ -335,6 +335,17 @@ h2 {
 #WR-img {
   width: 100%;
 }
+@media (min-width: 660px) and (max-width: 991px) {
+  #WR-img {
+    width: 150%;
+  }
+  #EV-img {
+    width: 150%;
+  }
+  #LI-img {
+    width: 150%;
+  }
+}
 .featured-work {
   padding-bottom: 60px;
 }
