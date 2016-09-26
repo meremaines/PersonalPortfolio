@@ -338,12 +338,21 @@ h2 {
 @media (min-width: 660px) and (max-width: 991px) {
   #WR-img {
     width: 150%;
+    position: relative;
+    left: -50px;
   }
   #EV-img {
     width: 150%;
+    position: relative;
+    left: -35px;
   }
   #LI-img {
     width: 150%;
+  }
+}
+@media (min-width: 761px ) and (max-width: 991px) {
+  #WR-img {
+    top: -35px;
   }
 }
 .featured-work {
