@@ -727,6 +727,50 @@ div #LA:hover > .Hover /*#NY:hover .Hover_NY, #WC:hover .Hover_WC, #BJ:hover .Ho
     padding-bottom: 32px;
   }
 }
+@media (max-width: 600px) {
+  .hero-text {
+    padding: 75px 20px 0px 20px;
+  }
+  .hero-text .btn-casestudy {
+    margin: 20px 0px 30px 0px;
+  }
+  .study h3 {
+    margin: 0;
+  }
+  .study h4 {
+    margin-bottom: 0;
+  }
+  .survey h4, .user-stories h4 {
+    padding-top: 40px;
+  }
+  .study h5 {
+    padding-bottom: 15px;
+  }
+  .the-problem .one-half.left ul {
+    margin-bottom: 0px;
+  }
+  .the-problem .one-half.left .first-li, .the-problem .one-half.right .first-li {
+    padding-bottom: 0px;
+  }
+  .the-problem .one-half.right ul {
+    margin-top: 0px;
+  }
+  .user-flows .btn-casestudy {
+    margin-bottom: 0px;
+  }
+  .typography img {
+    margin-bottom: 0px;
+  }
+  .conclusion h3 {
+    margin-top: 1em;
+  }
+  .CTA-btn {
+    margin-bottom: 0;
+  }
+  .CTA .btn-casestudy {
+    margin-bottom: 0;
+  }
+}
 @media (max-width: 641px) {
   .case-study-nav {
     display: none;
