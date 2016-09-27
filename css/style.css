@@ -696,10 +696,10 @@ div #LA:hover > .Hover /*#NY:hover .Hover_NY, #WC:hover .Hover_WC, #BJ:hover .Ho
 
 /*Case Study Media Queries*/
 @media (max-width: 500px) {
-  #library > .container > .hero-text {
+/*  #library > .container > .hero-text {
     margin: 0 auto;
     width: 96%;
-  }
+  }*/
   .btn-casestudy, .btn-casestudy:hover {
     width: 100%;
     padding: 20px 0px;
@@ -769,6 +769,9 @@ div #LA:hover > .Hover /*#NY:hover .Hover_NY, #WC:hover .Hover_WC, #BJ:hover .Ho
   }
   .CTA .btn-casestudy {
     margin-bottom: 0;
+  }
+  .user-research .one-third.left li {
+    padding-bottom: 0;
   }
 }
 @media (max-width: 641px) {
