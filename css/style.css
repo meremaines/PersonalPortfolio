@@ -1000,7 +1000,7 @@ div #LA:hover > .Hover /*#NY:hover .Hover_NY, #WC:hover .Hover_WC, #BJ:hover .Ho
 }
 /*RESUME*/
 #resume.hero {
-  background: #a3cfca url("images/behave_conference.jpg") no-repeat;
+  background: #a3cfca url("../images/behave_conference.JPG") no-repeat;
   background-position: -100px 0;
   background-size: 190%;
   display: block;
