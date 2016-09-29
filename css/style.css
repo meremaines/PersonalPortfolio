@@ -148,6 +148,16 @@ section.hero::before, #resume.hero::before, #contact.hero::before, #confirmation
  background-color: rgba(120, 183, 218, 0.5);
  overflow: hidden;
 }
+.headline {
+  padding: 120px 0 220px 0;
+}
+.headline > h2 > .title {
+  font-size: 18px;
+}
+.headline > h2 > .htown {
+  display: block;
+  padding-top: 5px;
+}
 @media (max-width: 900px) {
   .hero {
     background-position: -390px -350px;
@@ -165,6 +175,10 @@ section.hero::before, #resume.hero::before, #contact.hero::before, #confirmation
     background-position: -800px -450px;
     background-size: 500%;
   }
+  .headline > h1 {
+    font-size: 26pt;
+    padding: 0;
+  }
   .container.headline {
     padding: 120px 0 60px 0;
   }
@@ -173,6 +187,7 @@ section.hero::before, #resume.hero::before, #contact.hero::before, #confirmation
   }
   .work-headline > h1 {
     font-size: 26pt;
+    padding-top: 30px;
   }
   section.hero::before {
     background-color: rgba(120, 183, 218, 0.7);
@@ -205,27 +220,6 @@ section.hero::before, #resume.hero::before, #contact.hero::before, #confirmation
      background-position: center -150px;
   }
 }*/
-.headline {
-  padding: 120px 0 220px 0;
-}
-/*.headline.work {
-  padding: 75px 0 0 0;
-  height: 60vh;
-}*/
-.headline > h2 > .title {
-  font-size: 18px;
-}
-.headline > h2 > .htown {
-  display: block;
-  padding-top: 5px;
-}
-@media (max-width: 518px) {
-  .headline > h1 {
-    font-size: 26pt;
-    padding: 0;
-  }
-}
-
 h1 {
   /*float: left;*/
   margin: 0 auto;
