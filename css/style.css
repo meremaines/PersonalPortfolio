@@ -733,6 +733,11 @@ div #LA:hover > .Hover /*#NY:hover .Hover_NY, #WC:hover .Hover_WC, #BJ:hover .Ho
   }
 }
 @media (max-width: 600px) {
+  .one-third > p, .one-half > p, .two-thirds > p, .left > ul > li, .right > ul > li {
+    font-size:1.05em;
+    line-height: 1.8;
+    color: #757575;
+  }
   #library > .container > .hero-text, #enveloop > .container > .hero-text, #writing > .container > .hero-text {
     padding: 75px 20px 0px 20px;
   }
