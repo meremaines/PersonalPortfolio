@@ -733,7 +733,7 @@ div #LA:hover > .Hover /*#NY:hover .Hover_NY, #WC:hover .Hover_WC, #BJ:hover .Ho
   }
 }
 @media (max-width: 600px) {
-  .hero-text {
+  #library > .container > .hero-text, #enveloop > .container > .hero-text, #writing > .container > .hero-text {
     padding: 75px 20px 0px 20px;
   }
   .hero-text .btn-casestudy {
