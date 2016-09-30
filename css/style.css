@@ -193,6 +193,14 @@ section.hero::before, #resume.hero::before, #contact.hero::before, #confirmation
     background-color: rgba(120, 183, 218, 0.7);
   }
 }
+@media (max-width: 360px) {
+  .hero {
+    background-position: -800px -400px;
+  }
+  .headline > h1 {
+    font-size: 24pt;
+  }  
+}
 @media (max-width: 320px) {
   .hero {
     background-position: -700px -350px;
@@ -339,6 +347,11 @@ h2 {
 }
 #WR-img {
   width: 100%;
+}
+@media (min-width: 320px){
+  #WR-img, #EV-img, #LI-img {
+    width: 150%;
+  }
 }
 @media (min-width: 660px) and (max-width: 991px) {
   #WR-img {
