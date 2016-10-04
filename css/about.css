@@ -404,3 +404,35 @@ i.fa.fa-arrow-circle-o-down {
     top: -45px;
   }
 }
+@media (max-width: 400px) {
+  .abs > #LA-img {
+    width: 200%;
+  }
+  .abs > #WC-img {
+    left: -260px;
+    width: 250%;
+  }
+  .abs > #BJ-img {
+    width: 150%;
+  }
+  .abs > #NJ-img {
+    width: 120%;
+  }
+  .abs > #TX-img {
+    top: 0;
+    width: 170%;
+    left: -115px;
+  }
+  .abs > #HT-img {
+    top: -23px;
+    width: 120%;
+  }
+  .abs > #ZM-img {
+    width: 150%;
+    top: -100px;
+  }
+  .abs > #TBD-img {
+    width: 170%;
+    left: -100px;
+  }
+}
