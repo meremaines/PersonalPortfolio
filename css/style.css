@@ -678,14 +678,28 @@ a.btn-casestudy:hover {
   border: none;
   text-align: center;
 }
+@media (min-width: 992px) {
+  .CTA-btn {
+    width: 15%;
+  }
+}
 @media (min-width: 768px) {
   .CTA-btn {
     width: 25%;
   }
+  .study a.btn-casestudy.csbtn-mobile {
+    display: none;
+  }
+  .study a.btn-casestudy.csbtn-desktop {
+    display: block;
+  }
 }
-@media (min-width: 992px) {
-  .CTA-btn {
-    width: 15%;
+@media (max-width: 767px) {
+  .study a.btn-casestudy.csbtn-desktop {
+    display: none;
+  }
+  .study a.btn-casestudy.csbtn-mobile {
+    display: block;
   }
 }
 /*.cta-sub-nav > ul > li > a {
@@ -698,6 +712,7 @@ a.btn-casestudy:hover {
 /*.headline.work a.btn, .headline.work a.btn:hover {
   width: 10%;
 }*/
+
 /*ABOUT*/
 .Hover_LA /*.Hover_NY, .Hover_WC, .Hover_BJ, .Hover_NJ, .Hover_TX, .Hover_HT, .Hover_ZM, .Hover_TBD*/ {
   width: inherit;
