@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <title>Meredith Maines | Confirmation</title>
+
+  <!--Google Fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,400italic|Arapey|Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/navigation.css">
+  <link rel="stylesheet" href="css/contact.css">
+  <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
+</head>
+<!--  page info -->
+<body ontouchstart="">
+  <header>
+<!-- Navigation -->
+    <div id="confirmation">
+      <div class="container">
+        <nav>
+          <div class="top-nav">
+            <a href="index.html"><img src="images/PersonalLogo.png" class="logo-png"></a>
+            <div class="mobile-logo">
+              <a href="index.html"><h5>MEREDITH <span class="last-name">MAINES</span></h5></a>
+            </div>
+            <div class="navigation-items">
+              <ul>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="index.html#see-work">WORK</a></li>
+                <li><a href="resume.html">RESUME</a></li>
+                <li><a href="contact.html" class="btn email-me">EMAIL ME!</a></li>
+              </ul>
+
+              <a href="#" class="hamburger-icon"><i class="fa fa-bars"></i></a>
+            </div>
+          </div>
+        </nav>
+      </div>  
+        <nav>
+          <div class="sub-nav">
+            <div class="container">
+              <a href="#" class="x-icon"><i class="fa fa-close"></i></a>
+            </div>
+            <ul>
+              <li class="about-nav"><a href="about.html">ABOUT</a></li>
+              <li><a href="index.html#see-work">WORK</a></li>
+              <li><a href="resume.html">RESUME</a></li>
+              <li class="contact-nav"><a href="contact.html">EMAIL ME!</a></li>
+            </ul>
+          </div>
+        </nav>                
+    </div>  
+  </header>
+<!-- CONTENT -->
+  <div id="confirmation" class="hero">
+    <div class="container">
+      <div class="confirm-hero">
+        <h1>success!</h1>
+        <h2>I RECEIVED YOUR MESSAGE AND WILL REACH OUT SHORTLY</h2>
+      </div>
+    </div>
+  </div>
+  <!-- Footer -->
+ <footer>
+   <div class="full-width ruled-line"></div>
+   <div class="container"> 
+    <div class="footer-text-block">
+      <p class="copyright">&copy; 2016 MEREDITH MAINES<span>&mdash;ALL RIGHTS RESERVED</span></p>
+      <div class="footer-icons">
+        <a href="mailto:meredithmaines@gmail.com" class="email-icon"><i class="fa fa-envelope"></i></a>
+        <a href="https://www.linkedin.com/in/meredithmaines"><i class="fa fa-linkedin"></i></a>
+      </div>
+    </div>  
+   </div>
+ </footer>
+
+ <script src="js/jquery-3.0.0.min.js"></script>
+ <script>
+    $(".fa-bars").on("click", function() {
+      $(".sub-nav").toggle();
+   });
+    $(".fa-close").on("click", function() {
+      $(".sub-nav").toggle();
+    }); 
+ </script>
+  
+</body>
+</html>
