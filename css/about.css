@@ -266,10 +266,19 @@ i.fa.fa-arrow-circle-o-down {
     display: none;
   }
 }
+@media (max-width: 768px) {
+  #about.hero {
+    background-size: 225%;
+    height: 40vh;
+  }
+}
 @media (max-width: 695px) {
   #about.hero {
-    background-size: 200%;
+    background-size: 225%;
     height: 50vh;
+  }
+  .about-hero {
+    padding-top: 150px;
   }
 /*  .mid-call {
     margin: 0;
