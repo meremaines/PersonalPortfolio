@@ -1064,11 +1064,13 @@ div #LA:hover > .Hover /*#NY:hover .Hover_NY, #WC:hover .Hover_WC, #BJ:hover .Ho
   font-size: 18px;
   font-weight: 400;
 }
-.references h4 > .bold > a {
+.references a {
+  font-family: 'Montserrat', Arial, sans-serif;
   text-decoration: none;
-}
-.references h4 > .bold > a:hover {
   color: #B2902C;
+}
+.references h5 {
+  padding-bottom: 10px;
 }
 .bold {
   font-weight: 700;
@@ -1105,6 +1107,35 @@ div #LA:hover > .Hover /*#NY:hover .Hover_NY, #WC:hover .Hover_WC, #BJ:hover .Ho
   #resume.hero {
     background-position: -225px -80px; /*horizontal, vertical*/
     background-size: 130%;
+  }
+}
+@media (max-width: 768px) {
+  #resume.hero {
+    height: 40vh;
+    background-size: cover;
+    background-position: 0;
+  }
+}
+@media (max-width: 695px) {
+  .resume-hero {
+    padding-top: 150px;
+  }
+  .resume-hero a.btn {
+    width: 50%;
+  }
+  .experience, .skills, .education, .interests, .references {
+    width: 100%;
+  }
+  .resume p, .skills > ul > li, .interests > ul > li {
+    font-size: 1.05em;
+    line-height: 1.8;
+    color: #757575;
+    font-weight: 300;
+  }
+}
+@media (max-width: 375px) {
+  #resume.hero {
+    height: 60vh;
   }
 }
 /*CONTACT PAGE*/
