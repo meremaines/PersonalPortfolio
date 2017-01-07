@@ -145,7 +145,7 @@ section.hero::before, #resume.hero::before, #contact.hero::before, #confirmation
  height:100%;
  display: block;
  z-index:0;
- background-color: rgba(120, 183, 218, 0.5);
+ background-color: rgba(74, 74, 74, 0.6);
  overflow: hidden;
 }
 .headline {
@@ -233,15 +233,20 @@ h1 {
   margin: 0 auto;
   padding: 75px 0 0 0;
   text-align: center;
-  text-shadow: 1px 2px #B2902C;
+  /*text-shadow: 1px 2px #B2902C;*/
   position: relative;
+}
+.work-headline h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  color: #4a4a4a;
 }
 h2 {
   /*float: left;*/
   /*margin: 0 auto;*/
   text-align: center;
   position: relative;
-  text-shadow: 1px 2px #B2902C;
+  /*text-shadow: 1px 2px #B2902C;*/
 }
 .btn {
   padding: 10px;
@@ -338,6 +343,8 @@ h2 {
 .Hover > p {
   padding: 0 10px;
   text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
 #EV-img {
   width: 100%;
@@ -909,7 +916,7 @@ div #LA:hover > .Hover /*#NY:hover .Hover_NY, #WC:hover .Hover_WC, #BJ:hover .Ho
   z-index: 100;
 }
 .work-cell .yellow-overlay, .home-cell .yellow-overlay {
-  background-color: rgba(255, 212, 89, .6);
+  background-color: rgba(178, 144, 44, .7);
   position: absolute;
 }
 .work-blurb {

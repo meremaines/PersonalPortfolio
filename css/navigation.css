@@ -29,7 +29,7 @@
   font-weight: 400;
   font-size: 12px;
   color: #B2902C;
-  text-shadow: 0 1px #FFD459;
+  /*text-shadow: 0 1px #FFD459;*/
 }
 img.logo-png {
   display: none;
@@ -207,18 +207,18 @@ nav > .contained > .container > a.hamburger-icon, i.fa-bars:hover {
 /*Footer*/
 footer {
   width: 100%;
-  background: #FFFFFF;
+  background: #FFD459;
   position: relative;
   padding: 0 0 75px 0;
 }
 footer > .ruled-line {
-  height: 5px;
+  height: 2px;
   width: 100%;
-  background: #FFD459;
+  /*background: #B2902C;*/
 }
 .footer-text-block {
-  background: #ffffff;
-  padding: 15px 0 0 0;
+  background: #FFD459;
+  padding: 40px 0 0 0;
   position: relative;
   margin: 0 auto;
 /*  height: 50vh;*/
