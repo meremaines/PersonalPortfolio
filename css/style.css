@@ -1062,7 +1062,8 @@ div #LA:hover > .Hover /*#NY:hover .Hover_NY, #WC:hover .Hover_WC, #BJ:hover .Ho
 }
 .resume-hero > h2 {
   color: #ffffff;
-  text-shadow: 1px 2px #B2902C;
+  font-size: 18px;
+  /*text-shadow: 1px 2px #B2902C;*/
   padding: 0;
 }
 .resume > .container {
@@ -1107,10 +1108,10 @@ div #LA:hover > .Hover /*#NY:hover .Hover_NY, #WC:hover .Hover_WC, #BJ:hover .Ho
 }
 .resume-hero > p, .experience p, .experience > .job > ul > li, .skills > ul > li, .interests > ul > li {
   font-family: 'Roboto', Arial, sans-serif;
-  font-weight: 400;
-  font-size: 1em;
-  line-height: 1.4em;
-  color: #9b9b9b;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #4a4a4a;
 }
 .experience {
   width: 64%;
