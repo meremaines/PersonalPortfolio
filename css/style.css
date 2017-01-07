@@ -966,7 +966,7 @@ div #LA:hover > .Hover /*#NY:hover .Hover_NY, #WC:hover .Hover_WC, #BJ:hover .Ho
   z-index: 10;
   position: absolute;
   width: 100%;
-  padding: 90px 0;
+  padding: 75px 0;
 }
 .work-grid .toptype > h5 {
   padding: 0px;
@@ -1098,7 +1098,7 @@ div #LA:hover > .Hover /*#NY:hover .Hover_NY, #WC:hover .Hover_WC, #BJ:hover .Ho
   font-weight: 400;
   color: #4a4a4a;
 }
-.resume-hero > p, .experience p, .skills > ul > li, .interests > ul > li {
+.resume-hero > p, .experience p, .experience > .job > ul > li, .skills > ul > li, .interests > ul > li {
   font-family: 'Roboto', Arial, sans-serif;
   font-weight: 400;
   font-size: 1em;
