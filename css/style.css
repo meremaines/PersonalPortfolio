@@ -136,7 +136,7 @@ p {
   position: relative;
   padding-bottom: 150px;
 }
-section.hero::before, #resume.hero::before, #contact.hero::before, #confirmation.hero::before {
+section.hero::before, #resume.hero::before, #contact.hero::before, #confirmation.hero::before, #enveloop.hero::before {
  position: absolute;
  content:" ";
  top:0;
@@ -398,7 +398,7 @@ h2 {
   font-weight: 400;
   font-size: 36pt;
   line-height: 32pt;
-  color: #4AA298;
+  color: #4a4a4a;
   text-align: left;
   text-shadow: none;
   padding: 10px 0 0 0;
@@ -409,7 +409,7 @@ h2 {
   font-weight: 400;
   font-size:1em;
   line-height: 17px;
-  color: #4AA298;
+  color: #4A4a4a;
   margin-top: 20px;
   text-shadow: none;
   text-align: left;
@@ -448,8 +448,8 @@ h2 {
 .hero-text > p {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
-  font-size:1.1em;
-  line-height: 1.5;
+  font-size:18px;
+  line-height: 32px;
   color: #ffffff;
 }
 p.sub-head {
@@ -488,7 +488,7 @@ ul.casestudy-text > li { /*need to adjust this*/
   /*height: 90vh;*/
 }
 #library > .container > .hero-text, #enveloop > .container > .hero-text, #writing > .container > .hero-text {
-  background-color: rgba(120, 183, 218, 0.7);
+  background-color: rgba(74, 162, 152, 0.7);
   padding: 125px 20px 50px 20px;
  }
 @media (min-width: 551px) {
@@ -509,11 +509,11 @@ ul.casestudy-text > li { /*need to adjust this*/
 .btn-casestudy {
   width: 100%;
   padding: 20px 0;
-  background-color: #a3cfca;
-  border-bottom: 3px solid #4AA298;
+  background-color: #4AA298;
+  border-bottom: 3px solid #A3CFCA;
 }
 .btn-casestudy:hover {
-  background-color: #4AA298;
+  background-color: #A3CFCA;
 }
 a.btn-casestudy {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
@@ -526,8 +526,30 @@ a.btn-casestudy {
   margin: 20px 0 50px 0;
 }
 a.btn-casestudy:hover {
-  color: #a3cfca;
+  color: #4AA298;
 }
+.hero .btn-casestudy {
+  width: 100%;
+  padding: 20px 0;
+  background-color: #ffffff;
+  border-bottom: 3px solid #4AA298;
+}
+.hero .btn-casestudy:hover {
+  background-color: #4AA298;
+}
+.hero a.btn-casestudy {
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size:14px;
+  color: #4AA298;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  margin: 20px 0 50px 0;
+}
+.hero a.btn-casestudy:hover {
+  color: #a3cfca;
+}  
 .case-study-nav {
   width: 100%;
 }
@@ -545,24 +567,24 @@ a.btn-casestudy:hover {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size: 12px;
-  color: #a3cfca;
+  color: #4AA298;
   padding-right: 10px;
 }
 .case-study-nav > nav > ul > li > a:hover {
-  color: #4AA298;
+  color: #A3CFCA;
 }
 .one-third > p, .one-half > p, .two-thirds > p {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
-  font-size:1em;
-  line-height: 1.4;
-  color: #9b9b9b;
+  font-size:18px;
+  line-height:32px;
+  color: #4a4a4a;
 }
 .one-third > h3, .left > h3 {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-size: 24px;
-  color: #a3cfca;
+  color: #4AA298;
   text-align: left;
   width: 100%;
 }
@@ -570,22 +592,22 @@ a.btn-casestudy:hover {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-size: 18px;
-  color: #a3cfca;
+  color: #4AA298;
   width: 100%;
 }
 .one-third > h5, .right > h5 {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size: 12px;
-  color: #a3cfca;
+  color: #4AA298;
   margin: 0;
 }
 .left > ul > li, .right > ul > li {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
-  font-size:1em;
-  line-height: 1.4;
-  color: #9b9b9b;
+  font-size:18px;
+  line-height: 32px;
+  color: #4a4a4a;
 }
 .the-problem, .antecedent, .user-research, .branding, .design-issues {
   border-bottom: 1px solid #9b9b9b;
@@ -661,11 +683,11 @@ a.btn-casestudy:hover {
   padding: 5em 0;
 }
 .casestudy-text > h1 {
-  color: #ffffff;
+  color: #4a4a4a;
   text-align: center;
   margin: 0 auto;
   padding: 0;
-  text-shadow: 1px 2px #4AA298;
+  text-shadow: 1px 1px #4AA298;
 }
 .CTA-btn {
   display: block;
@@ -674,16 +696,18 @@ a.btn-casestudy:hover {
   width: 50%;
 }
 .CTA-btn > a.btn-casestudy {
-  color: #a3cfca;
+  color: #4AA298;
   background: #ffffff;
   border: none;
   text-align: center;
+  border-bottom: 3px solid #4AA298;
 }
 .CTA-btn> a.btn-casestudy:hover {
   color: #a3cfca;
   background: #4AA298;
   border: none;
   text-align: center;
+  border-bottom: 3px solid #4AA298;
 }
 @media (min-width: 992px) {
   .CTA-btn {
