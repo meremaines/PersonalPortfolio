@@ -136,7 +136,7 @@ p {
   position: relative;
   padding-bottom: 150px;
 }
-section.hero::before, #resume.hero::before, #contact.hero::before, #confirmation.hero::before, #enveloop.hero::before {
+section.hero::before, #resume.hero::before, #contact.hero::before, #confirmation.hero::before, #enveloop.hero::before, #library.hero::before {
  position: absolute;
  content:" ";
  top:0;
