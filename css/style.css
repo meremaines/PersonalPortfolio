@@ -153,6 +153,7 @@ section.hero::before, #resume.hero::before, #contact.hero::before, #confirmation
 }
 .headline > h2 > .title {
   font-size: 18px;
+  text-shadow: 1px 2px #4a4a4a;
 }
 .headline > h2 > .htown {
   display: block;
@@ -233,13 +234,14 @@ h1 {
   margin: 0 auto;
   padding: 75px 0 0 0;
   text-align: center;
-  /*text-shadow: 1px 2px #B2902C;*/
+  text-shadow: 1px 2px #4a4a4a;
   position: relative;
 }
 .work-headline h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 24px;
   color: #4a4a4a;
+  text-shadow: none;
 }
 h2 {
   /*float: left;*/
@@ -400,7 +402,7 @@ h2 {
   line-height: 32pt;
   /*color: #4a4a4a;*/
   text-align: center;
-  text-shadow: none;
+  text-shadow: 1px 2px #4a4a4a;
   padding: 10px 0 0 0;
   clear: both;
 }
@@ -411,7 +413,7 @@ h2 {
   line-height: 17px;
   /*color: #4A4a4a;*/
   margin-top: 20px;
-  text-shadow: none;
+  text-shadow: 1px 2px #4a4a4a;
   text-align: center;
   text-transform: uppercase;
   width: 100%;
@@ -469,9 +471,9 @@ ul.casestudy-text > li { /*need to adjust this*/
   color: #9b9b9b;
 }
 #library.hero {
-  background: #a3cfca url("../images/libraryhero.jpg") no-repeat;
-  background-position: -225px -500px; /*horizontal, vertical*/
-  background-size: 150%;
+  background: #a3cfca url("../images/library_demo_hires.jpg") no-repeat;
+  /*background-position: -225px -500px;*/ /*horizontal, vertical*/
+  background-size: cover;
   /*opacity: 0.5;*/
   display: block;
   width: 100%;
@@ -479,7 +481,7 @@ ul.casestudy-text > li { /*need to adjust this*/
   /*height: 90vh;*/
 }
 #enveloop.hero {
-  background: #a3cfca url("../images/tablet.jpg") no-repeat;
+  background: #a3cfca url("../images/enveloop_demo_lores.jpg") no-repeat;
   background-size: cover;
   /*opacity: 0.5;*/
   display: block;
@@ -853,11 +855,11 @@ div #LA:hover > .Hover /*#NY:hover .Hover_NY, #WC:hover .Hover_WC, #BJ:hover .Ho
     display: none;
   }
 }
-@media (max-width: 700px) {
+/*@media (max-width: 700px) {
   #library.hero {
     background: #f5f5f5;
   }
-}
+}*/
 @media (max-width: 768px) {
   .the-problem, .survey,  {
     width: 96%;
@@ -887,31 +889,31 @@ div #LA:hover > .Hover /*#NY:hover .Hover_NY, #WC:hover .Hover_WC, #BJ:hover .Ho
     max-height: 300px;
   }
 }
-@media (max-width: 990px) {
+/*@media (max-width: 990px) {
   #library.hero {
     background-position: -400px -350px;
     background-size: 230%;
-  }
+  }*/
 /*  #enveloop.hero {
     background-position: -400px -350px;
     background-size: 230%;
   }*/
 }
-@media (min-width: 1000px) {
+/*@media (min-width: 1000px) {
   #library.hero {
     background-position: -500px -500px;
     background-size: 200%;
-  }
+  }*/
 /*  #enveloop.hero {
     background-position: -500px -500px;
     background-size: 200%;
   }*/
 }
-@media (min-width: 1200px) {
+/*@media (min-width: 1200px) {
   #library.hero {
     background-position: -225px -350px;
     background-size: 150%;
-  }
+  }*/
 /*  #enveloop.hero {
     background-position: -225px -350px;
     background-size: 150%;
@@ -945,7 +947,7 @@ div #LA:hover > .Hover /*#NY:hover .Hover_NY, #WC:hover .Hover_WC, #BJ:hover .Ho
   z-index: 100;
 }
 .work-cell .yellow-overlay, .home-cell .yellow-overlay {
-  background-color: rgba(178, 144, 44, .7);
+  background-color: rgba(74, 74, 74, .7);
   position: absolute;
 }
 .work-blurb {
@@ -1008,7 +1010,7 @@ div #LA:hover > .Hover /*#NY:hover .Hover_NY, #WC:hover .Hover_WC, #BJ:hover .Ho
   padding: 0px;
   /*color: #B2902C;*/
   color: #ffffff;
-  text-shadow: 1px 2px #B2902C;
+  text-shadow: 1px 2px #4a4a4a;
   text-align: center;
   margin: 0 auto;
   font-size: 24px;

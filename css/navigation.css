@@ -29,7 +29,7 @@
   font-weight: 400;
   font-size: 12px;
   color: #ffffff;
-  /*text-shadow: 0 1px #FFD459;*/
+  text-shadow: 0 1px #4a4a4a;
 }
 .navigation-items > ul > li > a.btn {
   color: #B2902C;
