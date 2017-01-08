@@ -249,12 +249,12 @@ h2 {
   /*text-shadow: 1px 2px #B2902C;*/
 }
 .btn {
-  padding: 10px;
+  padding: 20px;
   background-color: #FFD459;
   border-bottom: 3px solid #B2902C;
 }
 .btn:hover {
-  padding: 10px;
+  padding: 20px;
   background-color: #B2902C;
   border-bottom: 3px solid #B2902C;
   color: #FFD459;
@@ -398,8 +398,8 @@ h2 {
   font-weight: 400;
   font-size: 36pt;
   line-height: 32pt;
-  color: #4a4a4a;
-  text-align: left;
+  /*color: #4a4a4a;*/
+  text-align: center;
   text-shadow: none;
   padding: 10px 0 0 0;
   clear: both;
@@ -409,12 +409,12 @@ h2 {
   font-weight: 400;
   font-size:1em;
   line-height: 17px;
-  color: #4A4a4a;
+  /*color: #4A4a4a;*/
   margin-top: 20px;
   text-shadow: none;
-  text-align: left;
+  text-align: center;
   text-transform: uppercase;
-  width: 75%;
+  width: 100%;
 }
 #writing .hero-text > h1, #writing .hero-text > h2 {
   color: #666;
@@ -488,10 +488,9 @@ ul.casestudy-text > li { /*need to adjust this*/
   /*height: 90vh;*/
 }
 #library > .container > .hero-text, #enveloop > .container > .hero-text, #writing > .container > .hero-text {
-  background-color: rgba(74, 162, 152, 0.7);
-  padding: 125px 20px 50px 20px;
+  padding: 125px 20px 100px 20px;
  }
-@media (min-width: 551px) {
+/*@media (min-width: 551px) {
   #library > .container > .hero-text, #enveloop > .container > .hero-text, #writing > .container > .hero-text {
     width: 75%;
   }
@@ -505,7 +504,7 @@ ul.casestudy-text > li { /*need to adjust this*/
   #library > .container > .hero-text, #enveloop > .container > .hero-text, #writing > .container > .hero-text {
     width: 40%;
   }
-}
+}*/
 .btn-casestudy {
   width: 100%;
   padding: 20px 0;
@@ -523,7 +522,7 @@ a.btn-casestudy {
   text-decoration: none;
   text-align: center;
   display: inline-block;
-  margin: 20px 0 50px 0;
+  margin: 20px 0 0 0;
 }
 a.btn-casestudy:hover {
   color: #4AA298;
@@ -691,7 +690,7 @@ a.btn-casestudy:hover {
 }
 .CTA-btn {
   display: block;
-  margin: 20px auto;
+  margin: 0 auto;
   text-align: center;
   width: 50%;
 }
