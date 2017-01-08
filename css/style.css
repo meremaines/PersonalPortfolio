@@ -945,7 +945,7 @@ div #LA:hover > .Hover /*#NY:hover .Hover_NY, #WC:hover .Hover_WC, #BJ:hover .Ho
   z-index: 100;
 }
 .work-cell .yellow-overlay, .home-cell .yellow-overlay {
-  background-color: rgba(178, 144, 44, .7);
+  background-color: rgba(74, 74, 74, .7);
   position: absolute;
 }
 .work-blurb {
@@ -1008,7 +1008,7 @@ div #LA:hover > .Hover /*#NY:hover .Hover_NY, #WC:hover .Hover_WC, #BJ:hover .Ho
   padding: 0px;
   /*color: #B2902C;*/
   color: #ffffff;
-  text-shadow: 1px 2px #B2902C;
+  /*text-shadow: 1px 2px #B2902C*/;
   text-align: center;
   margin: 0 auto;
   font-size: 24px;
