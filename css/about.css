@@ -276,6 +276,9 @@ i.fa.fa-arrow-circle-o-down {
     background-size: 225%;
     height: 40vh;
   }
+  .about-hero {
+    padding-top: 100px;
+  }
 }
 @media (max-width: 695px) {
   #about.hero {
@@ -283,7 +286,7 @@ i.fa.fa-arrow-circle-o-down {
     height: 50vh;
   }
   .about-hero {
-    padding-top: 150px;
+    /*padding-top: 150px;*/
   }
 /*  .mid-call {
     margin: 0;

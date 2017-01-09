@@ -1169,11 +1169,14 @@ div #LA:hover > .Hover /*#NY:hover .Hover_NY, #WC:hover .Hover_WC, #BJ:hover .Ho
     background-size: cover;
     background-position: 0;
   }
+  .resume-hero {
+    padding-top: 100px;
+  }
 }
 @media (max-width: 695px) {
-  .resume-hero {
+  /*.resume-hero {
     padding-top: 150px;
-  }
+  }*/
   .resume-hero a.btn {
     width: 50%;
   }
