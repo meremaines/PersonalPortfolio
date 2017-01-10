@@ -136,7 +136,7 @@ p {
   position: relative;
   padding-bottom: 150px;
 }
-section.hero::before, #resume.hero::before, #contact.hero::before, #confirmation.hero::before, #enveloop.hero::before, #library.hero::before {
+section.hero::before, #resume.hero::before, #contact.hero::before, #confirmation.hero::before, #enveloop.hero::before, #library.hero::before, #chemyx_homepage.hero::before {
  position: absolute;
  content:" ";
  top:0;
@@ -1331,4 +1331,8 @@ textarea {
   padding: 0;
   border-bottom: 1px solid #B2902C;
  } 
+}
+/*Chemyx Homepage Casestudy*/
+#chemyx_homepage .image-before > img {
+  width: 100%;
 }
