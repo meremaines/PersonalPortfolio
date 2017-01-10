@@ -62,6 +62,11 @@ p {
   min-height: 1px;
   /*margin: 0 2% 20px;*/
 }
+.one-fourth {
+  width: 23.5%;
+  position: relative;
+  min-height: 1px;
+}
 .precedent > .one-third, .antecedent > .one-third {
   width: 32%;
 }
@@ -1334,5 +1339,5 @@ textarea {
 }
 /*Chemyx Homepage Casestudy*/
 #chemyx_homepage .image-before > img {
-  width: 100%;
+  width: 100% !important;
 }
