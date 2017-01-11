@@ -62,6 +62,11 @@ p {
   min-height: 1px;
   /*margin: 0 2% 20px;*/
 }
+.one-fourth {
+  width: 23.5%;
+  position: relative;
+  min-height: 1px;
+}
 .precedent > .one-third, .antecedent > .one-third {
   width: 32%;
 }
@@ -136,7 +141,7 @@ p {
   position: relative;
   padding-bottom: 150px;
 }
-section.hero::before, #resume.hero::before, #contact.hero::before, #confirmation.hero::before, #enveloop.hero::before, #library.hero::before {
+section.hero::before, #resume.hero::before, #contact.hero::before, #confirmation.hero::before, #enveloop.hero::before, #library.hero::before, #chemyx-homepage.hero::before {
  position: absolute;
  content:" ";
  top:0;
@@ -489,7 +494,21 @@ ul.casestudy-text > li { /*need to adjust this*/
   padding: 0;
   /*height: 90vh;*/
 }
-#library > .container > .hero-text, #enveloop > .container > .hero-text, #writing > .container > .hero-text {
+/*Chemyx Homepage Casestudy*/
+#chemyx-homepage.hero {
+  background: #a3cfca url("../images/homepage_yellow.jpg") no-repeat;
+  /*background-position: -225px -500px;*/ /*horizontal, vertical*/
+  background-size: cover;
+  /*opacity: 0.5;*/
+  display: block;
+  width: 100%;
+  padding: 0;
+  /*height: 90vh;*/
+}  
+.chemyx-homepage > .container > .precedent > .image-before > img, .chemyx-homepage > .container > .antecedent > .image-after > img {
+  width: 100% !important;
+}
+#library > .container > .hero-text, #enveloop > .container > .hero-text, #writing > .container > .hero-text, #chemyx-homepage > .container > .hero-text {
   padding: 125px 20px 100px 20px;
  }
 /*@media (min-width: 551px) {
