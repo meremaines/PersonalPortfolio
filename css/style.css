@@ -141,12 +141,11 @@ p {
 }*/
 .hero {
   background: #78b7da url("../images/hero_img.jpg") no-repeat;
-  background-position: -190px -350px;
-  background-size: auto 165%;
+  background-position: 0px -225px;
+  background-size: 100%;
   display: block;
   width: 100%;
   position: relative;
-  padding-bottom: 150px;
 }
 section.hero::before, #resume.hero::before, #contact.hero::before, #confirmation.hero::before, #enveloop.hero::before, #library.hero::before, #chemyx-homepage.hero::before {
  position: absolute;
@@ -171,22 +170,35 @@ section.hero::before, #resume.hero::before, #contact.hero::before, #confirmation
   display: block;
   padding-top: 5px;
 }
+/*@media (min-width: 901px) {
+  .hero {
+    background-position: 0px -250px;
+    background-size: 100%;
+  }  
+}*/
+@media (max-width: 1200px) {
+  .hero {
+    background-position: 0px -175px;
+    background-size: 125% auto;
+  }
+}
 @media (max-width: 900px) {
   .hero {
-    background-position: -390px -350px;
+    background-position: -300px -255px;
+    background-size: auto 150%;
   }
 }
 @media (max-width: 767px) {
   .hero {
-    background-position: -500px -255px;
-    background-size: auto 150%;
+    background-position: -200px;
+    background-size: 200%;
   }
 }
 @media (max-width: 518px) {
   .hero {
     padding-bottom: 0;
-    background-position: -800px -450px;
-    background-size: 500%;
+    background-position: -300px -200px;
+    background-size: 200%;
   }
   .headline > h1 {
     font-size: 26pt;
@@ -203,7 +215,7 @@ section.hero::before, #resume.hero::before, #contact.hero::before, #confirmation
     padding-top: 30px;
   }
   section.hero::before {
-    background-color: rgba(120, 183, 218, 0.7);
+    background-color: rgba(74, 74, 74, 0.6);
   }
 }
 @media (max-width: 360px) {
@@ -963,7 +975,7 @@ div #LA:hover > .Hover /*#NY:hover .Hover_NY, #WC:hover .Hover_WC, #BJ:hover .Ho
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
   padding: 76px 0;
   color: #ffffff;
-  text-shadow: 1px 2px #B2902C;
+  text-shadow: 1px 2px #4a4a4a;
   text-align: center;
   margin: 0 auto;
   font-size: 24px;
@@ -1008,7 +1020,7 @@ div #LA:hover > .Hover /*#NY:hover .Hover_NY, #WC:hover .Hover_WC, #BJ:hover .Ho
   font-weight: 300;
   font-size: 1em;
   line-height: 1.2em;
-  color: #9b9b9b;
+  color: #4a4a4a;
 }
 .work-cell .btn {
   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
